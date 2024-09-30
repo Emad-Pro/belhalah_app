@@ -547,5 +547,44 @@ class AppLocalizationsZh extends AppLocalizations {
   String get submit => '提交';
 
   @override
-  String get kd => 'K.D';
+  String get kWD => 'KWD';
+
+  @override
+  String get paymentDetails => '支付详情';
+
+  @override
+  String get orderID => '订单 ID';
+
+  @override
+  String get price => '价格';
+
+  @override
+  String get checkOut => '结账';
+
+  @override
+  String get paymentCancelledByUser => '用户已取消付款。';
+
+  @override
+  String get transactionInformation => '交易信息';
+
+  @override
+  String get customerInformation => '客户信息';
+
+  @override
+  String get orderReference => '订单参考';
+
+  @override
+  String get resultCode => '结果代码';
+
+  @override
+  String get amount => '金额';
+
+  @override
+  String get paidOn => '支付日期';
+
+  @override
+  String get customerName => '客户姓名';
+
+  @override
+  String get mobile => '手机';
 }

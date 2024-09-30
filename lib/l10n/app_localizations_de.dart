@@ -547,5 +547,44 @@ class AppLocalizationsDe extends AppLocalizations {
   String get submit => 'Absenden';
 
   @override
-  String get kd => 'K.D';
+  String get kWD => 'Kuwaitischer Dinar';
+
+  @override
+  String get paymentDetails => 'Zahlungsdetails';
+
+  @override
+  String get orderID => 'Bestell-ID';
+
+  @override
+  String get price => 'Preis';
+
+  @override
+  String get checkOut => 'Zur Kasse';
+
+  @override
+  String get paymentCancelledByUser => 'Zahlung vom Benutzer abgebrochen.';
+
+  @override
+  String get transactionInformation => 'Transaktionsinformationen';
+
+  @override
+  String get customerInformation => 'Kundeninformationen';
+
+  @override
+  String get orderReference => 'Bestellreferenz';
+
+  @override
+  String get resultCode => 'Ergebniscode';
+
+  @override
+  String get amount => 'Betrag';
+
+  @override
+  String get paidOn => 'Bezahlt am';
+
+  @override
+  String get customerName => 'Kundenname';
+
+  @override
+  String get mobile => 'Mobil';
 }

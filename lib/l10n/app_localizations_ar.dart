@@ -547,5 +547,44 @@ class AppLocalizationsAr extends AppLocalizations {
   String get submit => 'إرسال';
 
   @override
-  String get kd => 'دينار كويتي';
+  String get kWD => 'K.W.D';
+
+  @override
+  String get paymentDetails => 'تفاصيل الدفع';
+
+  @override
+  String get orderID => 'رقم الطلب';
+
+  @override
+  String get price => 'السعر';
+
+  @override
+  String get checkOut => 'الدفع';
+
+  @override
+  String get paymentCancelledByUser => 'تم إلغاء الدفع من قبل المستخدم.';
+
+  @override
+  String get transactionInformation => 'معلومات المعاملة';
+
+  @override
+  String get customerInformation => 'معلومات العميل';
+
+  @override
+  String get orderReference => 'مرجع الطلب';
+
+  @override
+  String get resultCode => 'رمز النتيجة';
+
+  @override
+  String get amount => 'المبلغ';
+
+  @override
+  String get paidOn => 'تم الدفع في';
+
+  @override
+  String get customerName => 'اسم العميل';
+
+  @override
+  String get mobile => 'الجوال';
 }

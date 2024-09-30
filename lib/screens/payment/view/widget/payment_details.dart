@@ -82,7 +82,7 @@ class _PaymentOrderDetailsState extends State<PaymentOrderDetails> {
                                   ListTile(
                                     leading: const Icon(Icons.person,
                                         color: Colors.blue),
-                                    title: const Text('Firstname',
+                                    title: Text(context.lwTranslate.firstName,
                                         style: TextStyle(
                                             fontSize: 18,
                                             fontWeight: FontWeight.bold)),
@@ -96,7 +96,7 @@ class _PaymentOrderDetailsState extends State<PaymentOrderDetails> {
                                   ListTile(
                                     leading: const Icon(Icons.person_outline,
                                         color: Colors.blue),
-                                    title: const Text('Lastname',
+                                    title: Text(context.lwTranslate.lastName,
                                         style: TextStyle(
                                             fontSize: 18,
                                             fontWeight: FontWeight.bold)),
@@ -110,7 +110,7 @@ class _PaymentOrderDetailsState extends State<PaymentOrderDetails> {
                                   ListTile(
                                     leading: const Icon(Icons.email,
                                         color: Colors.blue),
-                                    title: const Text('Email',
+                                    title: Text(context.lwTranslate.email,
                                         style: TextStyle(
                                             fontSize: 18,
                                             fontWeight: FontWeight.bold)),
@@ -124,7 +124,7 @@ class _PaymentOrderDetailsState extends State<PaymentOrderDetails> {
                                   ListTile(
                                     leading: const Icon(Icons.receipt,
                                         color: Colors.green),
-                                    title: const Text('Order ID',
+                                    title: Text(context.lwTranslate.orderID,
                                         style: TextStyle(
                                             fontSize: 18,
                                             fontWeight: FontWeight.bold)),
@@ -138,7 +138,7 @@ class _PaymentOrderDetailsState extends State<PaymentOrderDetails> {
                                   ListTile(
                                     leading: const Icon(Icons.attach_money,
                                         color: Colors.green),
-                                    title: const Text('Price',
+                                    title: Text(context.lwTranslate.price,
                                         style: TextStyle(
                                             fontSize: 18,
                                             fontWeight: FontWeight.bold)),
@@ -152,7 +152,7 @@ class _PaymentOrderDetailsState extends State<PaymentOrderDetails> {
                                   ListTile(
                                     leading: const Icon(Icons.update,
                                         color: Colors.orange),
-                                    title: const Text('Version',
+                                    title: Text(context.lwTranslate.version,
                                         style: TextStyle(
                                             fontSize: 18,
                                             fontWeight: FontWeight.bold)),
@@ -182,7 +182,7 @@ class _PaymentOrderDetailsState extends State<PaymentOrderDetails> {
                                           initialPaymentModel,
                                           initialHesabeModel);
                                 },
-                                child: const Text("Check Out")),
+                                child: Text(context.lwTranslate.checkOut)),
                           )),
                         )
                 ],

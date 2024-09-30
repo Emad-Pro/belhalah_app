@@ -547,5 +547,44 @@ class AppLocalizationsVi extends AppLocalizations {
   String get submit => 'Gửi';
 
   @override
-  String get kd => 'K.D';
+  String get kWD => 'KWD';
+
+  @override
+  String get paymentDetails => 'Chi tiết thanh toán';
+
+  @override
+  String get orderID => 'ID đơn hàng';
+
+  @override
+  String get price => 'Giá';
+
+  @override
+  String get checkOut => 'Thanh toán';
+
+  @override
+  String get paymentCancelledByUser => 'Thanh toán bị người dùng hủy.';
+
+  @override
+  String get transactionInformation => 'Thông tin giao dịch';
+
+  @override
+  String get customerInformation => 'Thông tin khách hàng';
+
+  @override
+  String get orderReference => 'Tham chiếu đơn hàng';
+
+  @override
+  String get resultCode => 'Mã kết quả';
+
+  @override
+  String get amount => 'Số tiền';
+
+  @override
+  String get paidOn => 'Đã thanh toán vào';
+
+  @override
+  String get customerName => 'Tên khách hàng';
+
+  @override
+  String get mobile => 'Di động';
 }

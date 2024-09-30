@@ -547,5 +547,44 @@ class AppLocalizationsFr extends AppLocalizations {
   String get submit => 'Soumettre';
 
   @override
-  String get kd => 'K.D';
+  String get kWD => 'Dinar koweïtien';
+
+  @override
+  String get paymentDetails => 'Détails de paiement';
+
+  @override
+  String get orderID => 'ID de commande';
+
+  @override
+  String get price => 'Prix';
+
+  @override
+  String get checkOut => 'Passer à la caisse';
+
+  @override
+  String get paymentCancelledByUser => 'Paiement annulé par l\'utilisateur.';
+
+  @override
+  String get transactionInformation => 'Informations sur la transaction';
+
+  @override
+  String get customerInformation => 'Informations sur le client';
+
+  @override
+  String get orderReference => 'Référence de commande';
+
+  @override
+  String get resultCode => 'Code de résultat';
+
+  @override
+  String get amount => 'Montant';
+
+  @override
+  String get paidOn => 'Payé le';
+
+  @override
+  String get customerName => 'Nom du client';
+
+  @override
+  String get mobile => 'Mobile';
 }

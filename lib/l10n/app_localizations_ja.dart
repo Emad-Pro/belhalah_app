@@ -547,5 +547,44 @@ class AppLocalizationsJa extends AppLocalizations {
   String get submit => '送信する';
 
   @override
-  String get kd => 'K.D';
+  String get kWD => 'KWD';
+
+  @override
+  String get paymentDetails => '支払いの詳細';
+
+  @override
+  String get orderID => '注文ID';
+
+  @override
+  String get price => '価格';
+
+  @override
+  String get checkOut => 'チェックアウト';
+
+  @override
+  String get paymentCancelledByUser => 'ユーザーによって支払いがキャンセルされました。';
+
+  @override
+  String get transactionInformation => '取引情報';
+
+  @override
+  String get customerInformation => '顧客情報';
+
+  @override
+  String get orderReference => '注文参照';
+
+  @override
+  String get resultCode => '結果コード';
+
+  @override
+  String get amount => '金額';
+
+  @override
+  String get paidOn => '支払い日';
+
+  @override
+  String get customerName => '顧客名';
+
+  @override
+  String get mobile => '携帯電話';
 }

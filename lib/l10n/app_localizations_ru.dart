@@ -547,5 +547,44 @@ class AppLocalizationsRu extends AppLocalizations {
   String get submit => 'Отправить';
 
   @override
-  String get kd => 'K.D';
+  String get kWD => 'KWD';
+
+  @override
+  String get paymentDetails => 'Детали платежа';
+
+  @override
+  String get orderID => 'ID заказа';
+
+  @override
+  String get price => 'Цена';
+
+  @override
+  String get checkOut => 'Оформить заказ';
+
+  @override
+  String get paymentCancelledByUser => 'Платеж отменен пользователем.';
+
+  @override
+  String get transactionInformation => 'Информация о транзакции';
+
+  @override
+  String get customerInformation => 'Информация о клиенте';
+
+  @override
+  String get orderReference => 'Ссылка на заказ';
+
+  @override
+  String get resultCode => 'Код результата';
+
+  @override
+  String get amount => 'Сумма';
+
+  @override
+  String get paidOn => 'Оплачено';
+
+  @override
+  String get customerName => 'Имя клиента';
+
+  @override
+  String get mobile => 'Мобильный';
 }

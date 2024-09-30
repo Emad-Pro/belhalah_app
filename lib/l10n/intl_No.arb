@@ -200,5 +200,19 @@
   "emailOtp": "E-post OTP",
   "newPassword": "Nytt passord",
   "confirmNewPassword": "Bekreft nytt passord",
-  "submit": "Send inn","kd":"K.D"
+  "submit": "Send inn",
+  "kWD": "KWD",
+  "paymentDetails": "Betalingsdetaljer",
+  "orderID": "Bestillings-ID",
+  "price": "Pris",
+  "checkOut": "Sjekk ut",
+  "paymentCancelledByUser": "Betaling avbrutt av bruker.",
+  "transactionInformation": "Transaksjonsinformasjon",
+  "customerInformation": "Kundeinformasjon",
+  "orderReference": "Ordreforhold",
+  "resultCode": "Resultatkode",
+  "amount": "Beløp",
+  "paidOn": "Betalt den",
+  "customerName": "Kundenavn",
+  "mobile": "Mobil"
 }

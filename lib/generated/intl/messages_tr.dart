@@ -58,6 +58,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "almostFinishedYouNeedToConfirmYourEmailAddressTo":
             MessageLookupByLibrary.simpleMessage(
                 "Neredeyse bitti... E-posta adresinizi onaylamanız gerekiyor. Aktivasyon sürecini tamamlamak için size gönderdiğimiz e-postadaki bağlantıya tıklayın."),
+        "amount": MessageLookupByLibrary.simpleMessage("Miktar"),
         "and": MessageLookupByLibrary.simpleMessage(" ve "),
         "apply": MessageLookupByLibrary.simpleMessage("Uygula"),
         "areYouSure": MessageLookupByLibrary.simpleMessage("Emin misiniz?"),
@@ -80,6 +81,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "changeEmail": MessageLookupByLibrary.simpleMessage("E-posta Değiştir"),
         "changePassword":
             MessageLookupByLibrary.simpleMessage("Şifre Değiştir"),
+        "checkOut": MessageLookupByLibrary.simpleMessage("Ödemeyi Tamamla"),
         "confirmNewPassword":
             MessageLookupByLibrary.simpleMessage("Yeni Şifreyi Onayla"),
         "confirmPassword":
@@ -90,6 +92,9 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Kredi Paketleri"),
         "creditsCredits": m1,
         "currentEmail": MessageLookupByLibrary.simpleMessage("Mevcut E-posta"),
+        "customerInformation":
+            MessageLookupByLibrary.simpleMessage("Müşteri Bilgileri"),
+        "customerName": MessageLookupByLibrary.simpleMessage("Müşteri Adı"),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("Hesabı Sil"),
         "deleteAllChatHistory":
             MessageLookupByLibrary.simpleMessage("Tüm Sohbet Geçmişini Sil"),
@@ -135,7 +140,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "home": MessageLookupByLibrary.simpleMessage("Ana Sayfa"),
         "iAcceptAllThe": MessageLookupByLibrary.simpleMessage("Tüm "),
         "itemPriceCredits": m4,
-        "kd": MessageLookupByLibrary.simpleMessage("K.D"),
+        "kWD": MessageLookupByLibrary.simpleMessage("KWD"),
         "language": MessageLookupByLibrary.simpleMessage("Dil"),
         "lastName": MessageLookupByLibrary.simpleMessage("Soyisim"),
         "letsGo": MessageLookupByLibrary.simpleMessage("Hadi Başlayalım"),
@@ -172,6 +177,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "messenger": MessageLookupByLibrary.simpleMessage("Messenger"),
         "minimumAge": MessageLookupByLibrary.simpleMessage("Minimum Yaş"),
         "minimumHeight": MessageLookupByLibrary.simpleMessage("Minimum Boy"),
+        "mobile": MessageLookupByLibrary.simpleMessage("Mobil"),
         "mobileNumber":
             MessageLookupByLibrary.simpleMessage("Telefon Numarası"),
         "myCreditWallet":
@@ -191,9 +197,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "notifications": MessageLookupByLibrary.simpleMessage("Bildirimler"),
         "ok": MessageLookupByLibrary.simpleMessage("Tamam"),
         "on": MessageLookupByLibrary.simpleMessage("üzerinde"),
+        "orderID": MessageLookupByLibrary.simpleMessage("Sipariş ID"),
+        "orderReference":
+            MessageLookupByLibrary.simpleMessage("Sipariş Referansı"),
         "packageNotFound":
             MessageLookupByLibrary.simpleMessage("Paket bulunamadı"),
+        "paidOn": MessageLookupByLibrary.simpleMessage("Tarihinde Ödendi"),
         "password": MessageLookupByLibrary.simpleMessage("Şifre"),
+        "paymentCancelledByUser": MessageLookupByLibrary.simpleMessage(
+            "Kullanıcı tarafından ödeme iptal edildi."),
+        "paymentDetails":
+            MessageLookupByLibrary.simpleMessage("Ödeme Detayları"),
         "paymentMethod": MessageLookupByLibrary.simpleMessage("Ödeme Yöntemi"),
         "personal": MessageLookupByLibrary.simpleMessage("Kişisel"),
         "pleaseSelectAPlan":
@@ -203,6 +217,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "premium": MessageLookupByLibrary.simpleMessage("Premium"),
         "premiumMembershipExpiry": MessageLookupByLibrary.simpleMessage(
             "Premium Üyelik Süresi Bitişi"),
+        "price": MessageLookupByLibrary.simpleMessage("Fiyat"),
         "privacyPolicy":
             MessageLookupByLibrary.simpleMessage("gizlilik politikasını"),
         "privately": MessageLookupByLibrary.simpleMessage("Özel"),
@@ -222,6 +237,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Kullanıcıyı Bildir"),
         "requestDenied":
             MessageLookupByLibrary.simpleMessage("İstek Reddedildi"),
+        "resultCode": MessageLookupByLibrary.simpleMessage("Sonuç Kodu"),
         "selectCountryCode":
             MessageLookupByLibrary.simpleMessage("Ülke Kodu Seçin"),
         "selectLanguage": MessageLookupByLibrary.simpleMessage("Dil Seç"),
@@ -260,6 +276,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "totalViews":
             MessageLookupByLibrary.simpleMessage("Toplam Görüntüleme"),
         "transaction": MessageLookupByLibrary.simpleMessage("İşlem"),
+        "transactionInformation":
+            MessageLookupByLibrary.simpleMessage("İşlem Bilgileri"),
         "tryingToConnect":
             MessageLookupByLibrary.simpleMessage("Bağlanmaya çalışılıyor..."),
         "unblock": MessageLookupByLibrary.simpleMessage("Engeli Kaldır"),

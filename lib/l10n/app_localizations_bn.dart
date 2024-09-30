@@ -547,5 +547,44 @@ class AppLocalizationsBn extends AppLocalizations {
   String get submit => 'জমা দিন';
 
   @override
-  String get kd => 'কুয়েতি দিনার';
+  String get kWD => 'KWD';
+
+  @override
+  String get paymentDetails => 'পেমেন্টের বিবরণ';
+
+  @override
+  String get orderID => 'অর্ডার আইডি';
+
+  @override
+  String get price => 'মূল্য';
+
+  @override
+  String get checkOut => 'চেক আউট';
+
+  @override
+  String get paymentCancelledByUser => 'ব্যবহারকারীর দ্বারা পেমেন্ট বাতিল করা হয়েছে।';
+
+  @override
+  String get transactionInformation => 'লেনদেনের তথ্য';
+
+  @override
+  String get customerInformation => 'গ্রাহকের তথ্য';
+
+  @override
+  String get orderReference => 'অর্ডার রেফারেন্স';
+
+  @override
+  String get resultCode => 'ফলাফল কোড';
+
+  @override
+  String get amount => 'পরিমাণ';
+
+  @override
+  String get paidOn => 'পেমেন্ট করা হয়েছে';
+
+  @override
+  String get customerName => 'গ্রাহকের নাম';
+
+  @override
+  String get mobile => 'মোবাইল';
 }

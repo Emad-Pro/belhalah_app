@@ -60,6 +60,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "almostFinishedYouNeedToConfirmYourEmailAddressTo":
             MessageLookupByLibrary.simpleMessage(
                 "প্রায় শেষ... আপনাকে আপনার ইমেইল ঠিকানা নিশ্চিত করতে হবে। সক্রিয়করণ প্রক্রিয়া সম্পন্ন করতে, অনুগ্রহ করে আমরা আপনাকে পাঠানো ইমেইলের লিঙ্কে ক্লিক করুন।"),
+        "amount": MessageLookupByLibrary.simpleMessage("পরিমাণ"),
         "and": MessageLookupByLibrary.simpleMessage(" এবং "),
         "apply": MessageLookupByLibrary.simpleMessage("প্রয়োগ করুন"),
         "areYouSure": MessageLookupByLibrary.simpleMessage("তুমি কি নিশ্চিত?"),
@@ -81,6 +82,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "changeEmail": MessageLookupByLibrary.simpleMessage("ইমেইল পরিবর্তন"),
         "changePassword":
             MessageLookupByLibrary.simpleMessage("পাসওয়ার্ড পরিবর্তন"),
+        "checkOut": MessageLookupByLibrary.simpleMessage("চেক আউট"),
         "confirmNewPassword": MessageLookupByLibrary.simpleMessage(
             "নতুন পাসওয়ার্ড নিশ্চিত করুন"),
         "confirmPassword":
@@ -91,6 +93,9 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("ক্রেডিট প্যাকেজ"),
         "creditsCredits": m1,
         "currentEmail": MessageLookupByLibrary.simpleMessage("বর্তমান ইমেইল"),
+        "customerInformation":
+            MessageLookupByLibrary.simpleMessage("গ্রাহকের তথ্য"),
+        "customerName": MessageLookupByLibrary.simpleMessage("গ্রাহকের নাম"),
         "deleteAccount":
             MessageLookupByLibrary.simpleMessage("অ্যাকাউন্ট মুছে ফেলুন"),
         "deleteAllChatHistory": MessageLookupByLibrary.simpleMessage(
@@ -137,7 +142,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "iAcceptAllThe":
             MessageLookupByLibrary.simpleMessage("আমি সমস্ত মেনে নিচ্ছি "),
         "itemPriceCredits": m4,
-        "kd": MessageLookupByLibrary.simpleMessage("কুয়েতি দিনার"),
+        "kWD": MessageLookupByLibrary.simpleMessage("KWD"),
         "language": MessageLookupByLibrary.simpleMessage("ভাষা"),
         "lastName": MessageLookupByLibrary.simpleMessage("শেষ নাম"),
         "letsGo": MessageLookupByLibrary.simpleMessage("চলুন"),
@@ -174,6 +179,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "messenger": MessageLookupByLibrary.simpleMessage("মেসেঞ্জার"),
         "minimumAge": MessageLookupByLibrary.simpleMessage("ন্যূনতম বয়স"),
         "minimumHeight": MessageLookupByLibrary.simpleMessage("ন্যূনতম উচ্চতা"),
+        "mobile": MessageLookupByLibrary.simpleMessage("মোবাইল"),
         "mobileNumber": MessageLookupByLibrary.simpleMessage("মোবাইল নম্বর"),
         "myCreditWallet":
             MessageLookupByLibrary.simpleMessage("আমার ক্রেডিট ওয়ালেট"),
@@ -192,9 +198,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "notifications": MessageLookupByLibrary.simpleMessage("নোটিফিকেশন"),
         "ok": MessageLookupByLibrary.simpleMessage("ঠিক আছে"),
         "on": MessageLookupByLibrary.simpleMessage("তারিখ"),
+        "orderID": MessageLookupByLibrary.simpleMessage("অর্ডার আইডি"),
+        "orderReference":
+            MessageLookupByLibrary.simpleMessage("অর্ডার রেফারেন্স"),
         "packageNotFound":
             MessageLookupByLibrary.simpleMessage("প্যাকেজ পাওয়া যায়নি"),
+        "paidOn": MessageLookupByLibrary.simpleMessage("পেমেন্ট করা হয়েছে"),
         "password": MessageLookupByLibrary.simpleMessage("পাসওয়ার্ড"),
+        "paymentCancelledByUser": MessageLookupByLibrary.simpleMessage(
+            "ব্যবহারকারীর দ্বারা পেমেন্ট বাতিল করা হয়েছে।"),
+        "paymentDetails":
+            MessageLookupByLibrary.simpleMessage("পেমেন্টের বিবরণ"),
         "paymentMethod": MessageLookupByLibrary.simpleMessage("পেমেন্ট পদ্ধতি"),
         "personal": MessageLookupByLibrary.simpleMessage("ব্যক্তিগত"),
         "pleaseSelectAPlan": MessageLookupByLibrary.simpleMessage(
@@ -204,6 +218,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "premium": MessageLookupByLibrary.simpleMessage("প্রিমিয়াম"),
         "premiumMembershipExpiry": MessageLookupByLibrary.simpleMessage(
             "প্রিমিয়াম সদস্যপদ মেয়াদ শেষ"),
+        "price": MessageLookupByLibrary.simpleMessage("মূল্য"),
         "privacyPolicy": MessageLookupByLibrary.simpleMessage("গোপনীয়তা নীতি"),
         "privately": MessageLookupByLibrary.simpleMessage("ব্যক্তিগতভাবে"),
         "profileCoverPhoto":
@@ -222,6 +237,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("ব্যবহারকারী রিপোর্ট করুন"),
         "requestDenied":
             MessageLookupByLibrary.simpleMessage("অনুরোধ প্রত্যাখ্যান"),
+        "resultCode": MessageLookupByLibrary.simpleMessage("ফলাফল কোড"),
         "selectCountryCode":
             MessageLookupByLibrary.simpleMessage("দেশের কোড নির্বাচন করুন"),
         "selectLanguage":
@@ -260,6 +276,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "totalLikes": MessageLookupByLibrary.simpleMessage("মোট পছন্দ"),
         "totalViews": MessageLookupByLibrary.simpleMessage("মোট ভিউ"),
         "transaction": MessageLookupByLibrary.simpleMessage("লেনদেন"),
+        "transactionInformation":
+            MessageLookupByLibrary.simpleMessage("লেনদেনের তথ্য"),
         "tryingToConnect":
             MessageLookupByLibrary.simpleMessage("সংযোগ করার চেষ্টা করছেন..."),
         "unblock": MessageLookupByLibrary.simpleMessage("আনব্লক"),

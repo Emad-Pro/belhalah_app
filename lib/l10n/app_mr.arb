@@ -200,6 +200,19 @@
   "emailOtp": "ईमेल OTP",
   "newPassword": "नवीन पासवर्ड",
   "confirmNewPassword": "नवीन पासवर्ड पुष्टी करा",
-  "submit": "सबमिट"
-  ,"kd":"कुवैती दिनार"
+  "submit": "सबमिट",
+  "kWD": "KWD",
+  "paymentDetails": "भुगतान तपशील",
+  "orderID": "ऑर्डर आयडी",
+  "price": "किमत",
+  "checkOut": "चेकआउट",
+  "paymentCancelledByUser": "वापरकर्त्याद्वारे पेमेंट रद्द केले.",
+  "transactionInformation": "व्यवहार माहिती",
+  "customerInformation": "ग्राहक माहिती",
+  "orderReference": "ऑर्डर संदर्भ",
+  "resultCode": "परिणाम कोड",
+  "amount": "रक्कम",
+  "paidOn": "पेक्षा",
+  "customerName": "ग्राहकाचे नाव",
+  "mobile": "मोबाइल"
 }

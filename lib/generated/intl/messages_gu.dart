@@ -58,6 +58,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "almostFinishedYouNeedToConfirmYourEmailAddressTo":
             MessageLookupByLibrary.simpleMessage(
                 "લગભગ પૂર્ણ... તમારે તમારું ઇમેલ સરનામું પુષ્ટિ કરવાની જરૂર છે. સક્રિયતા પ્રક્રિયા પૂર્ણ કરવા માટે, કૃપા કરીને અમે આપેલા ઇમેલમાં લિંક પર ક્લિક કરો."),
+        "amount": MessageLookupByLibrary.simpleMessage("જથ્થો"),
         "and": MessageLookupByLibrary.simpleMessage("અને"),
         "apply": MessageLookupByLibrary.simpleMessage("લાગુ કરો"),
         "areYouSure":
@@ -80,6 +81,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "cancel": MessageLookupByLibrary.simpleMessage("રદ કરો"),
         "changeEmail": MessageLookupByLibrary.simpleMessage("ઇમેલ બદલો"),
         "changePassword": MessageLookupByLibrary.simpleMessage("પાસવર્ડ બદલો"),
+        "checkOut": MessageLookupByLibrary.simpleMessage("ચેકઆઉટ"),
         "confirmNewPassword":
             MessageLookupByLibrary.simpleMessage("નવો પાસવર્ડ પુષ્ટિ કરો"),
         "confirmPassword":
@@ -89,6 +91,9 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("ક્રેડિટ પેકેજેસ"),
         "creditsCredits": m1,
         "currentEmail": MessageLookupByLibrary.simpleMessage("વર્તમાન ઇમેલ"),
+        "customerInformation":
+            MessageLookupByLibrary.simpleMessage("ગ્રાહક માહિતી"),
+        "customerName": MessageLookupByLibrary.simpleMessage("ગ્રાહકનું નામ"),
         "deleteAccount":
             MessageLookupByLibrary.simpleMessage("ખાતું ડિલીટ કરો"),
         "deleteAllChatHistory":
@@ -136,7 +141,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "iAcceptAllThe":
             MessageLookupByLibrary.simpleMessage("હું બધી શરતો સ્વીકારું છું"),
         "itemPriceCredits": m4,
-        "kd": MessageLookupByLibrary.simpleMessage("કુવૈતી દિનાર"),
+        "kWD": MessageLookupByLibrary.simpleMessage("કુવૈતી દિવસ"),
         "language": MessageLookupByLibrary.simpleMessage("ભાષા"),
         "lastName": MessageLookupByLibrary.simpleMessage("છેલ્લું નામ"),
         "letsGo": MessageLookupByLibrary.simpleMessage("ચાલો જઈએ"),
@@ -171,6 +176,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "messenger": MessageLookupByLibrary.simpleMessage("મેસેન્જર"),
         "minimumAge": MessageLookupByLibrary.simpleMessage("ન્યૂનતમ વય"),
         "minimumHeight": MessageLookupByLibrary.simpleMessage("ન્યૂનતમ ઊંચાઈ"),
+        "mobile": MessageLookupByLibrary.simpleMessage("મોબાઇલ"),
         "mobileNumber": MessageLookupByLibrary.simpleMessage("મોબાઇલ નંબર"),
         "myCreditWallet":
             MessageLookupByLibrary.simpleMessage("મારો ક્રેડિટ વોલેટ"),
@@ -189,9 +195,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "notifications": MessageLookupByLibrary.simpleMessage("સૂચનાઓ"),
         "ok": MessageLookupByLibrary.simpleMessage("ઠીક છે"),
         "on": MessageLookupByLibrary.simpleMessage("પર"),
+        "orderID": MessageLookupByLibrary.simpleMessage("ઓર્ડર આઇડી"),
+        "orderReference": MessageLookupByLibrary.simpleMessage("ઓર્ડર સંદર્ભ"),
         "packageNotFound":
             MessageLookupByLibrary.simpleMessage("પેકેજ મળ્યું નથી"),
+        "paidOn": MessageLookupByLibrary.simpleMessage("ચુકવવામાં આવ્યું"),
         "password": MessageLookupByLibrary.simpleMessage("પાસવર્ડ"),
+        "paymentCancelledByUser": MessageLookupByLibrary.simpleMessage(
+            "વપરાશકર્તા દ્વારા ચુકવણી રદ્દ કરવામાં આવી છે."),
+        "paymentDetails": MessageLookupByLibrary.simpleMessage("ભૂગતાન વિગતો"),
         "paymentMethod": MessageLookupByLibrary.simpleMessage("ચુકવણી પદ્ધતિ"),
         "personal": MessageLookupByLibrary.simpleMessage("વ્યક્તિગત"),
         "pleaseSelectAPlan":
@@ -201,6 +213,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "premium": MessageLookupByLibrary.simpleMessage("પ્રીમિયમ"),
         "premiumMembershipExpiry":
             MessageLookupByLibrary.simpleMessage("પ્રીમિયમ સભ્યપદ સમાપ્તિ"),
+        "price": MessageLookupByLibrary.simpleMessage("કિંમત"),
         "privacyPolicy": MessageLookupByLibrary.simpleMessage("ગોપનીયતા નીતિ"),
         "privately": MessageLookupByLibrary.simpleMessage("ખાસગી"),
         "profileCoverPhoto":
@@ -217,6 +230,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "reportUser": MessageLookupByLibrary.simpleMessage("વપરાશકર્તા જણાવો"),
         "requestDenied":
             MessageLookupByLibrary.simpleMessage("વિનંતી નકારવામાં આવી"),
+        "resultCode": MessageLookupByLibrary.simpleMessage("પરિણામ કોડ"),
         "selectCountryCode":
             MessageLookupByLibrary.simpleMessage("દેશનો કોડ પસંદ કરો"),
         "selectLanguage": MessageLookupByLibrary.simpleMessage("ભાષા પસંદ કરો"),
@@ -253,6 +267,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "totalLikes": MessageLookupByLibrary.simpleMessage("કુલ પસંદગીઓ"),
         "totalViews": MessageLookupByLibrary.simpleMessage("કુલ દ્રશ્યો"),
         "transaction": MessageLookupByLibrary.simpleMessage("વ્યવહાર"),
+        "transactionInformation":
+            MessageLookupByLibrary.simpleMessage("લેણદેણની માહિતી"),
         "tryingToConnect":
             MessageLookupByLibrary.simpleMessage("કનેક્ટ કરવાનો પ્રયાસ..."),
         "unblock": MessageLookupByLibrary.simpleMessage("અવરોધ દૂર કરો"),

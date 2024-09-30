@@ -201,5 +201,18 @@
   "newPassword": "নতুন পাসওয়ার্ড",
   "confirmNewPassword": "নতুন পাসওয়ার্ড নিশ্চিত করুন",
   "submit": "জমা দিন",
-  "kd": "কুয়েতি দিনার"
+  "kWD": "KWD",
+  "paymentDetails": "পেমেন্টের বিবরণ",
+  "orderID": "অর্ডার আইডি",
+  "price": "মূল্য",
+  "checkOut": "চেক আউট",
+  "paymentCancelledByUser": "ব্যবহারকারীর দ্বারা পেমেন্ট বাতিল করা হয়েছে।",
+  "transactionInformation": "লেনদেনের তথ্য",
+  "customerInformation": "গ্রাহকের তথ্য",
+  "orderReference": "অর্ডার রেফারেন্স",
+  "resultCode": "ফলাফল কোড",
+  "amount": "পরিমাণ",
+  "paidOn": "পেমেন্ট করা হয়েছে",
+  "customerName": "গ্রাহকের নাম",
+  "mobile": "মোবাইল"
 }

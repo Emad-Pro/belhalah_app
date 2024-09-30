@@ -60,6 +60,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "almostFinishedYouNeedToConfirmYourEmailAddressTo":
             MessageLookupByLibrary.simpleMessage(
                 "Почти закончено... Вам нужно подтвердить свой адрес электронной почты. Чтобы завершить процесс активации, пожалуйста, перейдите по ссылке в письме, которое мы только что отправили вам."),
+        "amount": MessageLookupByLibrary.simpleMessage("Сумма"),
         "and": MessageLookupByLibrary.simpleMessage(" и "),
         "apply": MessageLookupByLibrary.simpleMessage("Применить"),
         "areYouSure": MessageLookupByLibrary.simpleMessage("Вы уверены?"),
@@ -82,6 +83,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "changeEmail": MessageLookupByLibrary.simpleMessage("Изменить Email"),
         "changePassword":
             MessageLookupByLibrary.simpleMessage("Изменить пароль"),
+        "checkOut": MessageLookupByLibrary.simpleMessage("Оформить заказ"),
         "confirmNewPassword":
             MessageLookupByLibrary.simpleMessage("Подтвердите новый пароль"),
         "confirmPassword":
@@ -92,6 +94,9 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Пакеты кредитов"),
         "creditsCredits": m1,
         "currentEmail": MessageLookupByLibrary.simpleMessage("Текущий Email"),
+        "customerInformation":
+            MessageLookupByLibrary.simpleMessage("Информация о клиенте"),
+        "customerName": MessageLookupByLibrary.simpleMessage("Имя клиента"),
         "deleteAccount":
             MessageLookupByLibrary.simpleMessage("Удалить аккаунт"),
         "deleteAllChatHistory":
@@ -140,7 +145,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "iAcceptAllThe":
             MessageLookupByLibrary.simpleMessage("Я принимаю все "),
         "itemPriceCredits": m4,
-        "kd": MessageLookupByLibrary.simpleMessage("K.D"),
+        "kWD": MessageLookupByLibrary.simpleMessage("KWD"),
         "language": MessageLookupByLibrary.simpleMessage("Язык"),
         "lastName": MessageLookupByLibrary.simpleMessage("Фамилия"),
         "letsGo": MessageLookupByLibrary.simpleMessage("Поехали"),
@@ -180,6 +185,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Минимальный возраст"),
         "minimumHeight":
             MessageLookupByLibrary.simpleMessage("Минимальный рост"),
+        "mobile": MessageLookupByLibrary.simpleMessage("Мобильный"),
         "mobileNumber":
             MessageLookupByLibrary.simpleMessage("Номер мобильного"),
         "myCreditWallet":
@@ -199,9 +205,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "notifications": MessageLookupByLibrary.simpleMessage("Уведомления"),
         "ok": MessageLookupByLibrary.simpleMessage("OK"),
         "on": MessageLookupByLibrary.simpleMessage("на"),
+        "orderID": MessageLookupByLibrary.simpleMessage("ID заказа"),
+        "orderReference":
+            MessageLookupByLibrary.simpleMessage("Ссылка на заказ"),
         "packageNotFound":
             MessageLookupByLibrary.simpleMessage("Пакет не найден"),
+        "paidOn": MessageLookupByLibrary.simpleMessage("Оплачено"),
         "password": MessageLookupByLibrary.simpleMessage("Пароль"),
+        "paymentCancelledByUser": MessageLookupByLibrary.simpleMessage(
+            "Платеж отменен пользователем."),
+        "paymentDetails":
+            MessageLookupByLibrary.simpleMessage("Детали платежа"),
         "paymentMethod": MessageLookupByLibrary.simpleMessage("Метод оплаты"),
         "personal": MessageLookupByLibrary.simpleMessage("Личные"),
         "pleaseSelectAPlan":
@@ -211,6 +225,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "premium": MessageLookupByLibrary.simpleMessage("Премиум"),
         "premiumMembershipExpiry":
             MessageLookupByLibrary.simpleMessage("Истекает Премиум-членство"),
+        "price": MessageLookupByLibrary.simpleMessage("Цена"),
         "privacyPolicy":
             MessageLookupByLibrary.simpleMessage("политику конфиденциальности"),
         "privately": MessageLookupByLibrary.simpleMessage("Лично"),
@@ -230,6 +245,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Сообщить о пользователе"),
         "requestDenied":
             MessageLookupByLibrary.simpleMessage("Запрос отклонен"),
+        "resultCode": MessageLookupByLibrary.simpleMessage("Код результата"),
         "selectCountryCode":
             MessageLookupByLibrary.simpleMessage("Выберите код страны"),
         "selectLanguage": MessageLookupByLibrary.simpleMessage("Выберите язык"),
@@ -267,6 +283,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "totalLikes": MessageLookupByLibrary.simpleMessage("Всего лайков"),
         "totalViews": MessageLookupByLibrary.simpleMessage("Всего просмотров"),
         "transaction": MessageLookupByLibrary.simpleMessage("Транзакция"),
+        "transactionInformation":
+            MessageLookupByLibrary.simpleMessage("Информация о транзакции"),
         "tryingToConnect":
             MessageLookupByLibrary.simpleMessage("Попытка подключения..."),
         "unblock": MessageLookupByLibrary.simpleMessage("Разблокировать"),

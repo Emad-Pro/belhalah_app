@@ -59,6 +59,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "almostFinishedYouNeedToConfirmYourEmailAddressTo":
             MessageLookupByLibrary.simpleMessage(
                 "लगभग समाप्त... आपको अपना ईमेल पता पुष्टि करनी होगी। सक्रियण प्रक्रिया को पूरा करने के लिए, कृपया हमने आपको भेजी हुई ईमेल में लिंक पर क्लिक करें।"),
+        "amount": MessageLookupByLibrary.simpleMessage("राशि"),
         "and": MessageLookupByLibrary.simpleMessage(" और "),
         "apply": MessageLookupByLibrary.simpleMessage("लागू करें"),
         "areYouSure":
@@ -80,6 +81,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "cancel": MessageLookupByLibrary.simpleMessage("रद्द करें"),
         "changeEmail": MessageLookupByLibrary.simpleMessage("ईमेल बदलें"),
         "changePassword": MessageLookupByLibrary.simpleMessage("पासवर्ड बदलें"),
+        "checkOut": MessageLookupByLibrary.simpleMessage("चेक आउट"),
         "confirmNewPassword":
             MessageLookupByLibrary.simpleMessage("नया पासवर्ड पुष्टि करें"),
         "confirmPassword":
@@ -88,6 +90,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "creditPackages": MessageLookupByLibrary.simpleMessage("क्रेडिट पैकेज"),
         "creditsCredits": m1,
         "currentEmail": MessageLookupByLibrary.simpleMessage("वर्तमान ईमेल"),
+        "customerInformation":
+            MessageLookupByLibrary.simpleMessage("ग्राहक जानकारी"),
+        "customerName": MessageLookupByLibrary.simpleMessage("ग्राहक का नाम"),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("खाता हटाएं"),
         "deleteAllChatHistory":
             MessageLookupByLibrary.simpleMessage("सभी चैट इतिहास हटाएं"),
@@ -133,7 +138,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "home": MessageLookupByLibrary.simpleMessage("होम"),
         "iAcceptAllThe": MessageLookupByLibrary.simpleMessage("मैं सभी "),
         "itemPriceCredits": m4,
-        "kd": MessageLookupByLibrary.simpleMessage("K.D"),
+        "kWD": MessageLookupByLibrary.simpleMessage("KWD"),
         "language": MessageLookupByLibrary.simpleMessage("भाषा"),
         "lastName": MessageLookupByLibrary.simpleMessage("उपनाम"),
         "letsGo": MessageLookupByLibrary.simpleMessage("चलो चलते हैं"),
@@ -167,6 +172,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "messenger": MessageLookupByLibrary.simpleMessage("मैसेंजर"),
         "minimumAge": MessageLookupByLibrary.simpleMessage("न्यूनतम आयु"),
         "minimumHeight": MessageLookupByLibrary.simpleMessage("न्यूनतम ऊंचाई"),
+        "mobile": MessageLookupByLibrary.simpleMessage("मोबाइल"),
         "mobileNumber": MessageLookupByLibrary.simpleMessage("मोबाइल नंबर"),
         "myCreditWallet":
             MessageLookupByLibrary.simpleMessage("मेरा क्रेडिट वॉलेट"),
@@ -185,9 +191,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "notifications": MessageLookupByLibrary.simpleMessage("सूचनाएं"),
         "ok": MessageLookupByLibrary.simpleMessage("ठीक है"),
         "on": MessageLookupByLibrary.simpleMessage("पर"),
+        "orderID": MessageLookupByLibrary.simpleMessage("ऑर्डर आईडी"),
+        "orderReference": MessageLookupByLibrary.simpleMessage("ऑर्डर संदर्भ"),
         "packageNotFound":
             MessageLookupByLibrary.simpleMessage("पैकेज नहीं मिला"),
+        "paidOn": MessageLookupByLibrary.simpleMessage("भुगतान किया गया"),
         "password": MessageLookupByLibrary.simpleMessage("पासवर्ड"),
+        "paymentCancelledByUser": MessageLookupByLibrary.simpleMessage(
+            "उपयोगकर्ता द्वारा भुगतान रद्द किया गया।"),
+        "paymentDetails": MessageLookupByLibrary.simpleMessage("भुगतान विवरण"),
         "paymentMethod":
             MessageLookupByLibrary.simpleMessage("भुगतान का तरीका"),
         "personal": MessageLookupByLibrary.simpleMessage("व्यक्तिगत"),
@@ -198,6 +210,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "premium": MessageLookupByLibrary.simpleMessage("प्रीमियम"),
         "premiumMembershipExpiry":
             MessageLookupByLibrary.simpleMessage("प्रीमियम सदस्यता समाप्ति"),
+        "price": MessageLookupByLibrary.simpleMessage("कीमत"),
         "privacyPolicy": MessageLookupByLibrary.simpleMessage("गोपनीयता नीति"),
         "privately": MessageLookupByLibrary.simpleMessage("निजी रूप से"),
         "profileCoverPhoto":
@@ -216,6 +229,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("उपयोगकर्ता की रिपोर्ट करें"),
         "requestDenied":
             MessageLookupByLibrary.simpleMessage("अनुरोध अस्वीकृत"),
+        "resultCode": MessageLookupByLibrary.simpleMessage("परिणाम कोड"),
         "selectCountryCode":
             MessageLookupByLibrary.simpleMessage("देश कोड चुनें"),
         "selectLanguage": MessageLookupByLibrary.simpleMessage("भाषा चुनें"),
@@ -252,6 +266,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "totalLikes": MessageLookupByLibrary.simpleMessage("कुल पसंद"),
         "totalViews": MessageLookupByLibrary.simpleMessage("कुल दृश्य"),
         "transaction": MessageLookupByLibrary.simpleMessage("लेन-देन"),
+        "transactionInformation":
+            MessageLookupByLibrary.simpleMessage("लेनदेन जानकारी"),
         "tryingToConnect": MessageLookupByLibrary.simpleMessage(
             "कनेक्ट करने की कोशिश की जा रही है..."),
         "unblock": MessageLookupByLibrary.simpleMessage("अनब्लॉक"),

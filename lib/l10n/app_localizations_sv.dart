@@ -547,5 +547,44 @@ class AppLocalizationsSv extends AppLocalizations {
   String get submit => 'Skicka';
 
   @override
-  String get kd => 'K.D';
+  String get kWD => 'KWD';
+
+  @override
+  String get paymentDetails => 'Betalningsdetaljer';
+
+  @override
+  String get orderID => 'Beställnings-ID';
+
+  @override
+  String get price => 'Pris';
+
+  @override
+  String get checkOut => 'Kolla ut';
+
+  @override
+  String get paymentCancelledByUser => 'Betalning avbruten av användaren.';
+
+  @override
+  String get transactionInformation => 'Transaktionsinformation';
+
+  @override
+  String get customerInformation => 'Kundinformation';
+
+  @override
+  String get orderReference => 'Beställningsreferens';
+
+  @override
+  String get resultCode => 'Resultatkod';
+
+  @override
+  String get amount => 'Belopp';
+
+  @override
+  String get paidOn => 'Betald den';
+
+  @override
+  String get customerName => 'Kundnamn';
+
+  @override
+  String get mobile => 'Mobil';
 }

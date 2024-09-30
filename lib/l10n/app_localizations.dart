@@ -1173,11 +1173,89 @@ abstract class AppLocalizations {
   /// **'Submit'**
   String get submit;
 
-  /// No description provided for @kd.
+  /// No description provided for @kWD.
   ///
   /// In en, this message translates to:
-  /// **'K.D'**
-  String get kd;
+  /// **'Kuwaiti Dinar'**
+  String get kWD;
+
+  /// No description provided for @paymentDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Details'**
+  String get paymentDetails;
+
+  /// No description provided for @orderID.
+  ///
+  /// In en, this message translates to:
+  /// **'Order ID'**
+  String get orderID;
+
+  /// No description provided for @price.
+  ///
+  /// In en, this message translates to:
+  /// **'Price'**
+  String get price;
+
+  /// No description provided for @checkOut.
+  ///
+  /// In en, this message translates to:
+  /// **'Check Out'**
+  String get checkOut;
+
+  /// No description provided for @paymentCancelledByUser.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Cancelled by user.'**
+  String get paymentCancelledByUser;
+
+  /// No description provided for @transactionInformation.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction Information'**
+  String get transactionInformation;
+
+  /// No description provided for @customerInformation.
+  ///
+  /// In en, this message translates to:
+  /// **'Customer Information'**
+  String get customerInformation;
+
+  /// No description provided for @orderReference.
+  ///
+  /// In en, this message translates to:
+  /// **'Order Reference'**
+  String get orderReference;
+
+  /// No description provided for @resultCode.
+  ///
+  /// In en, this message translates to:
+  /// **'Result Code'**
+  String get resultCode;
+
+  /// No description provided for @amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount'**
+  String get amount;
+
+  /// No description provided for @paidOn.
+  ///
+  /// In en, this message translates to:
+  /// **'Paid On'**
+  String get paidOn;
+
+  /// No description provided for @customerName.
+  ///
+  /// In en, this message translates to:
+  /// **'Customer Name'**
+  String get customerName;
+
+  /// No description provided for @mobile.
+  ///
+  /// In en, this message translates to:
+  /// **'Mobile'**
+  String get mobile;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

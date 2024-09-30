@@ -1792,11 +1792,141 @@ class S {
     );
   }
 
-  /// `K.D`
-  String get kd {
+  /// `KWD`
+  String get kWD {
     return Intl.message(
-      'K.D',
-      name: 'kd',
+      'KWD',
+      name: 'kWD',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Detalles del pago`
+  String get paymentDetails {
+    return Intl.message(
+      'Detalles del pago',
+      name: 'paymentDetails',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `ID de pedido`
+  String get orderID {
+    return Intl.message(
+      'ID de pedido',
+      name: 'orderID',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Precio`
+  String get price {
+    return Intl.message(
+      'Precio',
+      name: 'price',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Finalizar compra`
+  String get checkOut {
+    return Intl.message(
+      'Finalizar compra',
+      name: 'checkOut',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Pago cancelado por el usuario.`
+  String get paymentCancelledByUser {
+    return Intl.message(
+      'Pago cancelado por el usuario.',
+      name: 'paymentCancelledByUser',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Información de transacción`
+  String get transactionInformation {
+    return Intl.message(
+      'Información de transacción',
+      name: 'transactionInformation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Información del cliente`
+  String get customerInformation {
+    return Intl.message(
+      'Información del cliente',
+      name: 'customerInformation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Referencia de pedido`
+  String get orderReference {
+    return Intl.message(
+      'Referencia de pedido',
+      name: 'orderReference',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Código de resultado`
+  String get resultCode {
+    return Intl.message(
+      'Código de resultado',
+      name: 'resultCode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cantidad`
+  String get amount {
+    return Intl.message(
+      'Cantidad',
+      name: 'amount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Pagado en`
+  String get paidOn {
+    return Intl.message(
+      'Pagado en',
+      name: 'paidOn',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Nombre del cliente`
+  String get customerName {
+    return Intl.message(
+      'Nombre del cliente',
+      name: 'customerName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Móvil`
+  String get mobile {
+    return Intl.message(
+      'Móvil',
+      name: 'mobile',
       desc: '',
       args: [],
     );

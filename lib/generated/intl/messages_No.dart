@@ -59,6 +59,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "almostFinishedYouNeedToConfirmYourEmailAddressTo":
             MessageLookupByLibrary.simpleMessage(
                 "Nesten ferdig... Du må bekrefte e-postadressen din. For å fullføre aktiveringsprosessen, vennligst klikk på lenken i e-posten vi nettopp sendte deg."),
+        "amount": MessageLookupByLibrary.simpleMessage("Beløp"),
         "and": MessageLookupByLibrary.simpleMessage(" og "),
         "apply": MessageLookupByLibrary.simpleMessage("Bruk"),
         "areYouSure": MessageLookupByLibrary.simpleMessage("Er du sikker?"),
@@ -79,6 +80,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "cancel": MessageLookupByLibrary.simpleMessage("Avbryt"),
         "changeEmail": MessageLookupByLibrary.simpleMessage("Endre e-post"),
         "changePassword": MessageLookupByLibrary.simpleMessage("Endre passord"),
+        "checkOut": MessageLookupByLibrary.simpleMessage("Sjekk ut"),
         "confirmNewPassword":
             MessageLookupByLibrary.simpleMessage("Bekreft nytt passord"),
         "confirmPassword":
@@ -89,6 +91,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "creditsCredits": m1,
         "currentEmail":
             MessageLookupByLibrary.simpleMessage("Nåværende e-post"),
+        "customerInformation":
+            MessageLookupByLibrary.simpleMessage("Kundeinformasjon"),
+        "customerName": MessageLookupByLibrary.simpleMessage("Kundenavn"),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("Slett konto"),
         "deleteAllChatHistory":
             MessageLookupByLibrary.simpleMessage("Slett all chatthistorikk"),
@@ -136,7 +141,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "iAcceptAllThe":
             MessageLookupByLibrary.simpleMessage("Jeg godtar alle "),
         "itemPriceCredits": m4,
-        "kd": MessageLookupByLibrary.simpleMessage("K.D"),
+        "kWD": MessageLookupByLibrary.simpleMessage("KWD"),
         "language": MessageLookupByLibrary.simpleMessage("Språk"),
         "lastName": MessageLookupByLibrary.simpleMessage("Etternavn"),
         "letsGo": MessageLookupByLibrary.simpleMessage("La oss gå"),
@@ -171,6 +176,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "messenger": MessageLookupByLibrary.simpleMessage("Messenger"),
         "minimumAge": MessageLookupByLibrary.simpleMessage("Minste alder"),
         "minimumHeight": MessageLookupByLibrary.simpleMessage("Minimum høyde"),
+        "mobile": MessageLookupByLibrary.simpleMessage("Mobil"),
         "mobileNumber": MessageLookupByLibrary.simpleMessage("Mobilnummer"),
         "myCreditWallet":
             MessageLookupByLibrary.simpleMessage("Min kredittlommebok"),
@@ -189,9 +195,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "notifications": MessageLookupByLibrary.simpleMessage("Varsler"),
         "ok": MessageLookupByLibrary.simpleMessage("OK"),
         "on": MessageLookupByLibrary.simpleMessage("på"),
+        "orderID": MessageLookupByLibrary.simpleMessage("Bestillings-ID"),
+        "orderReference": MessageLookupByLibrary.simpleMessage("Ordreforhold"),
         "packageNotFound":
             MessageLookupByLibrary.simpleMessage("Pakke ikke funnet"),
+        "paidOn": MessageLookupByLibrary.simpleMessage("Betalt den"),
         "password": MessageLookupByLibrary.simpleMessage("Passord"),
+        "paymentCancelledByUser":
+            MessageLookupByLibrary.simpleMessage("Betaling avbrutt av bruker."),
+        "paymentDetails":
+            MessageLookupByLibrary.simpleMessage("Betalingsdetaljer"),
         "paymentMethod":
             MessageLookupByLibrary.simpleMessage("Betalingsmetode"),
         "personal": MessageLookupByLibrary.simpleMessage("Personlig"),
@@ -202,6 +215,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "premium": MessageLookupByLibrary.simpleMessage("Premium"),
         "premiumMembershipExpiry":
             MessageLookupByLibrary.simpleMessage("Premium medlemskap utløper"),
+        "price": MessageLookupByLibrary.simpleMessage("Pris"),
         "privacyPolicy":
             MessageLookupByLibrary.simpleMessage("personvernregler"),
         "privately": MessageLookupByLibrary.simpleMessage("Privat"),
@@ -220,6 +234,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "reportUser": MessageLookupByLibrary.simpleMessage("Rapporter bruker"),
         "requestDenied":
             MessageLookupByLibrary.simpleMessage("Forespørsel avvist"),
+        "resultCode": MessageLookupByLibrary.simpleMessage("Resultatkode"),
         "selectCountryCode":
             MessageLookupByLibrary.simpleMessage("Velg landskode"),
         "selectLanguage": MessageLookupByLibrary.simpleMessage("Velg språk"),
@@ -256,6 +271,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "totalLikes": MessageLookupByLibrary.simpleMessage("Totale liker"),
         "totalViews": MessageLookupByLibrary.simpleMessage("Totale visninger"),
         "transaction": MessageLookupByLibrary.simpleMessage("Transaksjon"),
+        "transactionInformation":
+            MessageLookupByLibrary.simpleMessage("Transaksjonsinformasjon"),
         "tryingToConnect":
             MessageLookupByLibrary.simpleMessage("Prøver å koble til..."),
         "unblock": MessageLookupByLibrary.simpleMessage("Opphev blokkering"),

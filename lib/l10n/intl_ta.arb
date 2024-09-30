@@ -200,5 +200,19 @@
   "emailOtp": "மின்னஞ்சல் OTP",
   "newPassword": "புதிய கடவுச்சொல்",
   "confirmNewPassword": "புதிய கடவுச்சொல்லை உறுதிப்படுத்து",
-  "submit": "சமர்ப்பிக்கவும்","kd":"K.D"
+  "submit": "சமர்ப்பிக்கவும்",
+  "kWD": "KWD",
+  "paymentDetails": "காசோலை விவரங்கள்",
+  "orderID": "ஆர்டர் ஐடி",
+  "price": "விலை",
+  "checkOut": "செக் அவுட்",
+  "paymentCancelledByUser": "பயனரால் பணம் ரத்து செய்யப்பட்டது.",
+  "transactionInformation": "பண பரிமாற்றம் தகவல்",
+  "customerInformation": "வாடிக்கையாளர் தகவல்",
+  "orderReference": "ஆர்டர் குறிப்பு",
+  "resultCode": "முடிவுக்குறி",
+  "amount": "மதிப்பு",
+  "paidOn": "பணம் செலுத்தப்பட்டது",
+  "customerName": "வாடிக்கையாளர் பெயர்",
+  "mobile": "மொபைல்"
 }

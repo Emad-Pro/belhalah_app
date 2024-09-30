@@ -60,6 +60,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "almostFinishedYouNeedToConfirmYourEmailAddressTo":
             MessageLookupByLibrary.simpleMessage(
                 "முடிவடையப் போகிறது... உங்கள் மின்னஞ்சல் முகவரியை உறுதிப்படுத்த வேண்டும். செயல்படுத்தும் செயல்முறையை முடிக்க, நாங்கள் உங்களுக்கு அனுப்பிய மின்னஞ்சலிலுள்ள இணைப்பைச் சொடுக்கவும்."),
+        "amount": MessageLookupByLibrary.simpleMessage("மதிப்பு"),
         "and": MessageLookupByLibrary.simpleMessage(" மற்றும் "),
         "apply": MessageLookupByLibrary.simpleMessage("விண்ணப்பிக்கவும்"),
         "areYouSure": MessageLookupByLibrary.simpleMessage("உறுதியாக?"),
@@ -85,6 +86,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("மின்னஞ்சலை மாற்றவும்"),
         "changePassword":
             MessageLookupByLibrary.simpleMessage("கடவுச்சொல்லை மாற்று"),
+        "checkOut": MessageLookupByLibrary.simpleMessage("செக் அவுட்"),
         "confirmNewPassword": MessageLookupByLibrary.simpleMessage(
             "புதிய கடவுச்சொல்லை உறுதிப்படுத்து"),
         "confirmPassword":
@@ -96,6 +98,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "creditsCredits": m1,
         "currentEmail":
             MessageLookupByLibrary.simpleMessage("தற்போதைய மின்னஞ்சல்"),
+        "customerInformation":
+            MessageLookupByLibrary.simpleMessage("வாடிக்கையாளர் தகவல்"),
+        "customerName":
+            MessageLookupByLibrary.simpleMessage("வாடிக்கையாளர் பெயர்"),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("கணக்கை நீக்கு"),
         "deleteAllChatHistory": MessageLookupByLibrary.simpleMessage(
             "அனைத்து அரட்டை வரலாற்றையும் நீக்கு"),
@@ -142,7 +148,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "iAcceptAllThe": MessageLookupByLibrary.simpleMessage(
             "நான் அனைத்தையும் ஏற்றுக்கொள்கிறேன் "),
         "itemPriceCredits": m4,
-        "kd": MessageLookupByLibrary.simpleMessage("K.D"),
+        "kWD": MessageLookupByLibrary.simpleMessage("KWD"),
         "language": MessageLookupByLibrary.simpleMessage("மொழி"),
         "lastName": MessageLookupByLibrary.simpleMessage("கடைசி பெயர்"),
         "letsGo": MessageLookupByLibrary.simpleMessage("செல்வோம்"),
@@ -180,6 +186,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "minimumAge": MessageLookupByLibrary.simpleMessage("குறைந்தபட்ச வயது"),
         "minimumHeight":
             MessageLookupByLibrary.simpleMessage("குறைந்தபட்ச உயரம்"),
+        "mobile": MessageLookupByLibrary.simpleMessage("மொபைல்"),
         "mobileNumber": MessageLookupByLibrary.simpleMessage("மொபைல் எண்"),
         "myCreditWallet":
             MessageLookupByLibrary.simpleMessage("என் கிரெடிட் வாலெட்"),
@@ -199,9 +206,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "notifications": MessageLookupByLibrary.simpleMessage("அறிவிப்புகள்"),
         "ok": MessageLookupByLibrary.simpleMessage("சரி"),
         "on": MessageLookupByLibrary.simpleMessage("அன்று"),
+        "orderID": MessageLookupByLibrary.simpleMessage("ஆர்டர் ஐடி"),
+        "orderReference":
+            MessageLookupByLibrary.simpleMessage("ஆர்டர் குறிப்பு"),
         "packageNotFound":
             MessageLookupByLibrary.simpleMessage("தொகுப்பு காணப்படவில்லை"),
+        "paidOn": MessageLookupByLibrary.simpleMessage("பணம் செலுத்தப்பட்டது"),
         "password": MessageLookupByLibrary.simpleMessage("கடவுச்சொல்"),
+        "paymentCancelledByUser": MessageLookupByLibrary.simpleMessage(
+            "பயனரால் பணம் ரத்து செய்யப்பட்டது."),
+        "paymentDetails":
+            MessageLookupByLibrary.simpleMessage("காசோலை விவரங்கள்"),
         "paymentMethod": MessageLookupByLibrary.simpleMessage("கட்டணம் முறை"),
         "personal": MessageLookupByLibrary.simpleMessage("தனிப்பட்ட"),
         "pleaseSelectAPlan": MessageLookupByLibrary.simpleMessage(
@@ -211,6 +226,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "premium": MessageLookupByLibrary.simpleMessage("பிரீமியம்"),
         "premiumMembershipExpiry": MessageLookupByLibrary.simpleMessage(
             "பிரீமியம் உறுப்பினர் காலாவதி"),
+        "price": MessageLookupByLibrary.simpleMessage("விலை"),
         "privacyPolicy":
             MessageLookupByLibrary.simpleMessage("தனியுரிமைக் கொள்கை"),
         "privately": MessageLookupByLibrary.simpleMessage("தனிப்பட்ட முறையில்"),
@@ -229,6 +245,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("பயனரை புகாரளிக்கவும்"),
         "requestDenied":
             MessageLookupByLibrary.simpleMessage("கோரிக்கை நிராகரிக்கப்பட்டது"),
+        "resultCode": MessageLookupByLibrary.simpleMessage("முடிவுக்குறி"),
         "selectCountryCode": MessageLookupByLibrary.simpleMessage(
             "நாட்டின் குறியீட்டைத் தேர்ந்தெடுக்கவும்"),
         "selectLanguage":
@@ -270,6 +287,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("மொத்த விருப்பங்கள்"),
         "totalViews": MessageLookupByLibrary.simpleMessage("மொத்த பார்வைகள்"),
         "transaction": MessageLookupByLibrary.simpleMessage("பரிவர்த்தனை"),
+        "transactionInformation":
+            MessageLookupByLibrary.simpleMessage("பண பரிமாற்றம் தகவல்"),
         "tryingToConnect": MessageLookupByLibrary.simpleMessage(
             "இணைக்க முயற்சி செய்கிறோம்..."),
         "unblock": MessageLookupByLibrary.simpleMessage("தடையை நீக்கவும்"),

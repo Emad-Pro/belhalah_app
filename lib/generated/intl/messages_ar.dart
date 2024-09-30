@@ -58,6 +58,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "almostFinishedYouNeedToConfirmYourEmailAddressTo":
             MessageLookupByLibrary.simpleMessage(
                 "تقريبًا انتهيت... تحتاج إلى تأكيد عنوان بريدك الإلكتروني. لإكمال عملية التنشيط، يرجى النقر على الرابط في البريد الذي أرسلناه لك للتو."),
+        "amount": MessageLookupByLibrary.simpleMessage("المبلغ"),
         "and": MessageLookupByLibrary.simpleMessage(" و "),
         "apply": MessageLookupByLibrary.simpleMessage("تطبيق"),
         "areYouSure": MessageLookupByLibrary.simpleMessage("هل أنت متأكد؟"),
@@ -80,6 +81,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("تغيير البريد الإلكتروني"),
         "changePassword":
             MessageLookupByLibrary.simpleMessage("تغيير كلمة المرور"),
+        "checkOut": MessageLookupByLibrary.simpleMessage("الدفع"),
         "confirmNewPassword":
             MessageLookupByLibrary.simpleMessage("تأكيد كلمة المرور الجديدة"),
         "confirmPassword":
@@ -90,6 +92,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "creditsCredits": m1,
         "currentEmail":
             MessageLookupByLibrary.simpleMessage("البريد الإلكتروني الحالي"),
+        "customerInformation":
+            MessageLookupByLibrary.simpleMessage("معلومات العميل"),
+        "customerName": MessageLookupByLibrary.simpleMessage("اسم العميل"),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("حذف الحساب"),
         "deleteAllChatHistory":
             MessageLookupByLibrary.simpleMessage("حذف كافة سجل الدردشة"),
@@ -138,7 +143,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "iAcceptAllThe":
             MessageLookupByLibrary.simpleMessage("أوافق على جميع "),
         "itemPriceCredits": m4,
-        "kd": MessageLookupByLibrary.simpleMessage("دينار كويتي"),
+        "kWD": MessageLookupByLibrary.simpleMessage("K.W.D"),
         "language": MessageLookupByLibrary.simpleMessage("اللغة"),
         "lastName": MessageLookupByLibrary.simpleMessage("الاسم الأخير"),
         "letsGo": MessageLookupByLibrary.simpleMessage("لنذهب"),
@@ -173,6 +178,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "messenger": MessageLookupByLibrary.simpleMessage("الرسائل"),
         "minimumAge": MessageLookupByLibrary.simpleMessage("أدنى عمر"),
         "minimumHeight": MessageLookupByLibrary.simpleMessage("الطول الأدنى"),
+        "mobile": MessageLookupByLibrary.simpleMessage("الجوال"),
         "mobileNumber": MessageLookupByLibrary.simpleMessage("رقم الجوال"),
         "myCreditWallet":
             MessageLookupByLibrary.simpleMessage("محفظتي الإئتمانية"),
@@ -193,9 +199,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "notifications": MessageLookupByLibrary.simpleMessage("الإشعارات"),
         "ok": MessageLookupByLibrary.simpleMessage("موافق"),
         "on": MessageLookupByLibrary.simpleMessage("على"),
+        "orderID": MessageLookupByLibrary.simpleMessage("رقم الطلب"),
+        "orderReference": MessageLookupByLibrary.simpleMessage("مرجع الطلب"),
         "packageNotFound":
             MessageLookupByLibrary.simpleMessage("الحزمة غير موجودة"),
+        "paidOn": MessageLookupByLibrary.simpleMessage("تم الدفع في"),
         "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
+        "paymentCancelledByUser": MessageLookupByLibrary.simpleMessage(
+            "تم إلغاء الدفع من قبل المستخدم."),
+        "paymentDetails": MessageLookupByLibrary.simpleMessage("تفاصيل الدفع"),
         "paymentMethod": MessageLookupByLibrary.simpleMessage("طريقة الدفع"),
         "personal": MessageLookupByLibrary.simpleMessage("شخصي"),
         "pleaseSelectAPlan":
@@ -205,6 +217,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "premium": MessageLookupByLibrary.simpleMessage("مميز"),
         "premiumMembershipExpiry":
             MessageLookupByLibrary.simpleMessage("انتهاء عضوية مميزة"),
+        "price": MessageLookupByLibrary.simpleMessage("السعر"),
         "privacyPolicy": MessageLookupByLibrary.simpleMessage("سياسة الخصوصية"),
         "privately": MessageLookupByLibrary.simpleMessage("بشكل خاص"),
         "profileCoverPhoto":
@@ -222,6 +235,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "reportUser":
             MessageLookupByLibrary.simpleMessage("الإبلاغ عن المستخدم"),
         "requestDenied": MessageLookupByLibrary.simpleMessage("تم رفض الطلب"),
+        "resultCode": MessageLookupByLibrary.simpleMessage("رمز النتيجة"),
         "selectCountryCode":
             MessageLookupByLibrary.simpleMessage("اختر رمز الدولة"),
         "selectLanguage": MessageLookupByLibrary.simpleMessage("اختر اللغة"),
@@ -259,6 +273,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "totalLikes": MessageLookupByLibrary.simpleMessage("إجمالي الإعجابات"),
         "totalViews": MessageLookupByLibrary.simpleMessage("إجمالي المشاهدات"),
         "transaction": MessageLookupByLibrary.simpleMessage("المعاملة"),
+        "transactionInformation":
+            MessageLookupByLibrary.simpleMessage("معلومات المعاملة"),
         "tryingToConnect":
             MessageLookupByLibrary.simpleMessage("جارٍ الاتصال..."),
         "unblock": MessageLookupByLibrary.simpleMessage("إلغاء الحظر"),
@@ -273,6 +289,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "username": MessageLookupByLibrary.simpleMessage("اسم المستخدم"),
         "version": MessageLookupByLibrary.simpleMessage("الإصدار"),
         "walletBalanceCredits": m7,
+        "welcome": MessageLookupByLibrary.simpleMessage("مرحبا"),
         "welcomeSmallMessage": MessageLookupByLibrary.simpleMessage(
             "المواعدة لا تحتاج إلى أن تكون صعبة."),
         "workStatus": MessageLookupByLibrary.simpleMessage("حالة العمل"),

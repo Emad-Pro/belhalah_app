@@ -200,6 +200,19 @@
   "emailOtp": "メールOTP",
   "newPassword": "新しいパスワード",
   "confirmNewPassword": "新しいパスワードを確認",
-  "submit": "送信する","kd":"K.D"
+  "submit": "送信する",
+  "kWD": "KWD",
+  "paymentDetails": "支払いの詳細",
+  "orderID": "注文ID",
+  "price": "価格",
+  "checkOut": "チェックアウト",
+  "paymentCancelledByUser": "ユーザーによって支払いがキャンセルされました。",
+  "transactionInformation": "取引情報",
+  "customerInformation": "顧客情報",
+  "orderReference": "注文参照",
+  "resultCode": "結果コード",
+  "amount": "金額",
+  "paidOn": "支払い日",
+  "customerName": "顧客名",
+  "mobile": "携帯電話"
 }
-

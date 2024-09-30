@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:loveria/common/services/utils.dart';
 
 class PaymentLoading extends StatelessWidget {
   final String? message;
@@ -13,7 +14,7 @@ class PaymentLoading extends StatelessWidget {
         children: [
           const CircularProgressIndicator(),
           const SizedBox(height: 10),
-          Text(message ?? "يتم تحميل البيانات..."),
+          Text(message ?? context.lwTranslate.loading),
         ],
       ),
     );

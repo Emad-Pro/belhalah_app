@@ -60,6 +60,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "almostFinishedYouNeedToConfirmYourEmailAddressTo":
             MessageLookupByLibrary.simpleMessage(
                 "Quasi finito... Devi confermare il tuo indirizzo email. Per completare il processo di attivazione, fai clic sul link nell\'email che ti abbiamo appena inviato."),
+        "amount": MessageLookupByLibrary.simpleMessage("Importo"),
         "and": MessageLookupByLibrary.simpleMessage(" e "),
         "apply": MessageLookupByLibrary.simpleMessage("Applica"),
         "areYouSure": MessageLookupByLibrary.simpleMessage("Sei sicuro?"),
@@ -82,6 +83,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "changeEmail": MessageLookupByLibrary.simpleMessage("Cambia Email"),
         "changePassword":
             MessageLookupByLibrary.simpleMessage("Cambia Password"),
+        "checkOut": MessageLookupByLibrary.simpleMessage("Vai alla cassa"),
         "confirmNewPassword":
             MessageLookupByLibrary.simpleMessage("Conferma Nuova Password"),
         "confirmPassword":
@@ -92,6 +94,9 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Pacchetti crediti"),
         "creditsCredits": m1,
         "currentEmail": MessageLookupByLibrary.simpleMessage("Email Attuale"),
+        "customerInformation":
+            MessageLookupByLibrary.simpleMessage("Informazioni sul cliente"),
+        "customerName": MessageLookupByLibrary.simpleMessage("Nome cliente"),
         "deleteAccount":
             MessageLookupByLibrary.simpleMessage("Elimina Account"),
         "deleteAllChatHistory": MessageLookupByLibrary.simpleMessage(
@@ -140,7 +145,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "iAcceptAllThe":
             MessageLookupByLibrary.simpleMessage("Accetto tutti i "),
         "itemPriceCredits": m4,
-        "kd": MessageLookupByLibrary.simpleMessage("K.D"),
+        "kWD": MessageLookupByLibrary.simpleMessage("KWD"),
         "language": MessageLookupByLibrary.simpleMessage("Lingua"),
         "lastName": MessageLookupByLibrary.simpleMessage("Cognome"),
         "letsGo": MessageLookupByLibrary.simpleMessage("Andiamo"),
@@ -176,6 +181,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "messenger": MessageLookupByLibrary.simpleMessage("Messaggero"),
         "minimumAge": MessageLookupByLibrary.simpleMessage("Età minima"),
         "minimumHeight": MessageLookupByLibrary.simpleMessage("Altezza minima"),
+        "mobile": MessageLookupByLibrary.simpleMessage("Mobile"),
         "mobileNumber":
             MessageLookupByLibrary.simpleMessage("Numero di cellulare"),
         "myCreditWallet":
@@ -195,9 +201,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "notifications": MessageLookupByLibrary.simpleMessage("Notifiche"),
         "ok": MessageLookupByLibrary.simpleMessage("OK"),
         "on": MessageLookupByLibrary.simpleMessage("su"),
+        "orderID": MessageLookupByLibrary.simpleMessage("ID ordine"),
+        "orderReference":
+            MessageLookupByLibrary.simpleMessage("Riferimento ordine"),
         "packageNotFound":
             MessageLookupByLibrary.simpleMessage("Pacchetto non trovato"),
+        "paidOn": MessageLookupByLibrary.simpleMessage("Pagato il"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "paymentCancelledByUser": MessageLookupByLibrary.simpleMessage(
+            "Pagamento annullato dall\'utente."),
+        "paymentDetails":
+            MessageLookupByLibrary.simpleMessage("Dettagli pagamento"),
         "paymentMethod":
             MessageLookupByLibrary.simpleMessage("Metodo di Pagamento"),
         "personal": MessageLookupByLibrary.simpleMessage("Personale"),
@@ -208,6 +222,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "premium": MessageLookupByLibrary.simpleMessage("Premium"),
         "premiumMembershipExpiry": MessageLookupByLibrary.simpleMessage(
             "Scadenza abbonamento Premium"),
+        "price": MessageLookupByLibrary.simpleMessage("Prezzo"),
         "privacyPolicy":
             MessageLookupByLibrary.simpleMessage("informativa sulla privacy"),
         "privately": MessageLookupByLibrary.simpleMessage("Privatamente"),
@@ -226,6 +241,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "reportUser": MessageLookupByLibrary.simpleMessage("Segnala Utente"),
         "requestDenied":
             MessageLookupByLibrary.simpleMessage("Richiesta Negata"),
+        "resultCode": MessageLookupByLibrary.simpleMessage("Codice risultato"),
         "selectCountryCode": MessageLookupByLibrary.simpleMessage(
             "Seleziona il codice del paese"),
         "selectLanguage":
@@ -265,6 +281,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "totalViews":
             MessageLookupByLibrary.simpleMessage("Visualizzazioni totali"),
         "transaction": MessageLookupByLibrary.simpleMessage("Transazione"),
+        "transactionInformation": MessageLookupByLibrary.simpleMessage(
+            "Informazioni sulla transazione"),
         "tryingToConnect":
             MessageLookupByLibrary.simpleMessage("Tentativo di connessione..."),
         "unblock": MessageLookupByLibrary.simpleMessage("Sblocca"),

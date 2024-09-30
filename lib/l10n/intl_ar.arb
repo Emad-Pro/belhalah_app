@@ -1,5 +1,5 @@
 {
-  "welcome":"مرحبا",
+  "welcome": "مرحبا",
   "welcomeSmallMessage": "المواعدة لا تحتاج إلى أن تكون صعبة.",
   "letsGo": "لنذهب",
   "menuFeaturedUsers": "المستخدمون المميزون",
@@ -201,5 +201,18 @@
   "newPassword": "كلمة المرور الجديدة",
   "confirmNewPassword": "تأكيد كلمة المرور الجديدة",
   "submit": "إرسال",
-  "kd":"دينار كويتي"
+  "kWD": "K.W.D",
+  "paymentDetails": "تفاصيل الدفع",
+  "orderID": "رقم الطلب",
+  "price": "السعر",
+  "checkOut": "الدفع",
+  "paymentCancelledByUser": "تم إلغاء الدفع من قبل المستخدم.",
+  "transactionInformation": "معلومات المعاملة",
+  "customerInformation": "معلومات العميل",
+  "orderReference": "مرجع الطلب",
+  "resultCode": "رمز النتيجة",
+  "amount": "المبلغ",
+  "paidOn": "تم الدفع في",
+  "customerName": "اسم العميل",
+  "mobile": "الجوال"
 }

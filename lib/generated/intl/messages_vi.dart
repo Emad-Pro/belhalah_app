@@ -60,6 +60,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "almostFinishedYouNeedToConfirmYourEmailAddressTo":
             MessageLookupByLibrary.simpleMessage(
                 "Gần hoàn thành... Bạn cần xác nhận địa chỉ email của mình. Để hoàn tất quá trình kích hoạt, vui lòng nhấp vào liên kết trong email chúng tôi vừa gửi cho bạn."),
+        "amount": MessageLookupByLibrary.simpleMessage("Số tiền"),
         "and": MessageLookupByLibrary.simpleMessage(" và "),
         "apply": MessageLookupByLibrary.simpleMessage("Áp dụng"),
         "areYouSure":
@@ -84,6 +85,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "changeEmail": MessageLookupByLibrary.simpleMessage("Thay đổi Email"),
         "changePassword":
             MessageLookupByLibrary.simpleMessage("Thay đổi mật khẩu"),
+        "checkOut": MessageLookupByLibrary.simpleMessage("Thanh toán"),
         "confirmNewPassword":
             MessageLookupByLibrary.simpleMessage("Xác nhận mật khẩu mới"),
         "confirmPassword":
@@ -93,6 +95,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "creditPackages": MessageLookupByLibrary.simpleMessage("Gói tín dụng"),
         "creditsCredits": m1,
         "currentEmail": MessageLookupByLibrary.simpleMessage("Email hiện tại"),
+        "customerInformation":
+            MessageLookupByLibrary.simpleMessage("Thông tin khách hàng"),
+        "customerName": MessageLookupByLibrary.simpleMessage("Tên khách hàng"),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("Xóa tài khoản"),
         "deleteAllChatHistory":
             MessageLookupByLibrary.simpleMessage("Xóa toàn bộ lịch sử chat"),
@@ -140,7 +145,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "iAcceptAllThe":
             MessageLookupByLibrary.simpleMessage("Tôi chấp nhận tất cả các "),
         "itemPriceCredits": m4,
-        "kd": MessageLookupByLibrary.simpleMessage("K.D"),
+        "kWD": MessageLookupByLibrary.simpleMessage("KWD"),
         "language": MessageLookupByLibrary.simpleMessage("Ngôn ngữ"),
         "lastName": MessageLookupByLibrary.simpleMessage("Họ"),
         "letsGo": MessageLookupByLibrary.simpleMessage("Bắt đầu"),
@@ -180,6 +185,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "minimumAge": MessageLookupByLibrary.simpleMessage("Tuổi tối thiểu"),
         "minimumHeight":
             MessageLookupByLibrary.simpleMessage("Chiều cao tối thiểu"),
+        "mobile": MessageLookupByLibrary.simpleMessage("Di động"),
         "mobileNumber":
             MessageLookupByLibrary.simpleMessage("Số điện thoại di động"),
         "myCreditWallet":
@@ -199,9 +205,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "notifications": MessageLookupByLibrary.simpleMessage("Thông báo"),
         "ok": MessageLookupByLibrary.simpleMessage("OK"),
         "on": MessageLookupByLibrary.simpleMessage("vào ngày"),
+        "orderID": MessageLookupByLibrary.simpleMessage("ID đơn hàng"),
+        "orderReference":
+            MessageLookupByLibrary.simpleMessage("Tham chiếu đơn hàng"),
         "packageNotFound":
             MessageLookupByLibrary.simpleMessage("Không tìm thấy gói"),
+        "paidOn": MessageLookupByLibrary.simpleMessage("Đã thanh toán vào"),
         "password": MessageLookupByLibrary.simpleMessage("Mật khẩu"),
+        "paymentCancelledByUser": MessageLookupByLibrary.simpleMessage(
+            "Thanh toán bị người dùng hủy."),
+        "paymentDetails":
+            MessageLookupByLibrary.simpleMessage("Chi tiết thanh toán"),
         "paymentMethod":
             MessageLookupByLibrary.simpleMessage("Phương thức thanh toán"),
         "personal": MessageLookupByLibrary.simpleMessage("Cá nhân"),
@@ -212,6 +226,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "premium": MessageLookupByLibrary.simpleMessage("Premium"),
         "premiumMembershipExpiry":
             MessageLookupByLibrary.simpleMessage("Hết hạn thành viên Premium"),
+        "price": MessageLookupByLibrary.simpleMessage("Giá"),
         "privacyPolicy":
             MessageLookupByLibrary.simpleMessage("chính sách bảo mật"),
         "privately": MessageLookupByLibrary.simpleMessage("Riêng tư"),
@@ -229,6 +244,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Báo cáo người dùng"),
         "requestDenied":
             MessageLookupByLibrary.simpleMessage("Yêu cầu bị từ chối"),
+        "resultCode": MessageLookupByLibrary.simpleMessage("Mã kết quả"),
         "selectCountryCode":
             MessageLookupByLibrary.simpleMessage("Chọn mã quốc gia"),
         "selectLanguage": MessageLookupByLibrary.simpleMessage("Chọn ngôn ngữ"),
@@ -266,6 +282,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "totalLikes": MessageLookupByLibrary.simpleMessage("Tổng lượt thích"),
         "totalViews": MessageLookupByLibrary.simpleMessage("Tổng lượt xem"),
         "transaction": MessageLookupByLibrary.simpleMessage("Giao dịch"),
+        "transactionInformation":
+            MessageLookupByLibrary.simpleMessage("Thông tin giao dịch"),
         "tryingToConnect":
             MessageLookupByLibrary.simpleMessage("Đang cố kết nối..."),
         "unblock": MessageLookupByLibrary.simpleMessage("Bỏ chặn"),

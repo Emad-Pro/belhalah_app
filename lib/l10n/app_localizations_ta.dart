@@ -547,5 +547,44 @@ class AppLocalizationsTa extends AppLocalizations {
   String get submit => 'சமர்ப்பிக்கவும்';
 
   @override
-  String get kd => 'K.D';
+  String get kWD => 'KWD';
+
+  @override
+  String get paymentDetails => 'காசோலை விவரங்கள்';
+
+  @override
+  String get orderID => 'ஆர்டர் ஐடி';
+
+  @override
+  String get price => 'விலை';
+
+  @override
+  String get checkOut => 'செக் அவுட்';
+
+  @override
+  String get paymentCancelledByUser => 'பயனரால் பணம் ரத்து செய்யப்பட்டது.';
+
+  @override
+  String get transactionInformation => 'பண பரிமாற்றம் தகவல்';
+
+  @override
+  String get customerInformation => 'வாடிக்கையாளர் தகவல்';
+
+  @override
+  String get orderReference => 'ஆர்டர் குறிப்பு';
+
+  @override
+  String get resultCode => 'முடிவுக்குறி';
+
+  @override
+  String get amount => 'மதிப்பு';
+
+  @override
+  String get paidOn => 'பணம் செலுத்தப்பட்டது';
+
+  @override
+  String get customerName => 'வாடிக்கையாளர் பெயர்';
+
+  @override
+  String get mobile => 'மொபைல்';
 }

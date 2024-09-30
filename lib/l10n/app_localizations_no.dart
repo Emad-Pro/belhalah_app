@@ -547,5 +547,44 @@ class AppLocalizationsNo extends AppLocalizations {
   String get submit => 'Send inn';
 
   @override
-  String get kd => 'K.D';
+  String get kWD => 'KWD';
+
+  @override
+  String get paymentDetails => 'Betalingsdetaljer';
+
+  @override
+  String get orderID => 'Bestillings-ID';
+
+  @override
+  String get price => 'Pris';
+
+  @override
+  String get checkOut => 'Sjekk ut';
+
+  @override
+  String get paymentCancelledByUser => 'Betaling avbrutt av bruker.';
+
+  @override
+  String get transactionInformation => 'Transaksjonsinformasjon';
+
+  @override
+  String get customerInformation => 'Kundeinformasjon';
+
+  @override
+  String get orderReference => 'Ordreforhold';
+
+  @override
+  String get resultCode => 'Resultatkode';
+
+  @override
+  String get amount => 'Beløp';
+
+  @override
+  String get paidOn => 'Betalt den';
+
+  @override
+  String get customerName => 'Kundenavn';
+
+  @override
+  String get mobile => 'Mobil';
 }

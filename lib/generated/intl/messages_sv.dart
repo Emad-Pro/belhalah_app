@@ -59,6 +59,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "almostFinishedYouNeedToConfirmYourEmailAddressTo":
             MessageLookupByLibrary.simpleMessage(
                 "Nästan klar... Du behöver bekräfta din e-postadress. För att slutföra aktiveringsprocessen, klicka på länken i det e-postmeddelande vi precis skickade till dig."),
+        "amount": MessageLookupByLibrary.simpleMessage("Belopp"),
         "and": MessageLookupByLibrary.simpleMessage(" och "),
         "apply": MessageLookupByLibrary.simpleMessage("Använd"),
         "areYouSure": MessageLookupByLibrary.simpleMessage("Är du säker?"),
@@ -80,6 +81,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "changeEmail": MessageLookupByLibrary.simpleMessage("Ändra e-post"),
         "changePassword":
             MessageLookupByLibrary.simpleMessage("Ändra lösenord"),
+        "checkOut": MessageLookupByLibrary.simpleMessage("Kolla ut"),
         "confirmNewPassword":
             MessageLookupByLibrary.simpleMessage("Bekräfta nytt lösenord"),
         "confirmPassword":
@@ -90,6 +92,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "creditsCredits": m1,
         "currentEmail":
             MessageLookupByLibrary.simpleMessage("Nuvarande e-post"),
+        "customerInformation":
+            MessageLookupByLibrary.simpleMessage("Kundinformation"),
+        "customerName": MessageLookupByLibrary.simpleMessage("Kundnamn"),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("Radera konto"),
         "deleteAllChatHistory":
             MessageLookupByLibrary.simpleMessage("Radera all chatt-historik"),
@@ -136,7 +141,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "iAcceptAllThe":
             MessageLookupByLibrary.simpleMessage("Jag accepterar alla "),
         "itemPriceCredits": m4,
-        "kd": MessageLookupByLibrary.simpleMessage("K.D"),
+        "kWD": MessageLookupByLibrary.simpleMessage("KWD"),
         "language": MessageLookupByLibrary.simpleMessage("Språk"),
         "lastName": MessageLookupByLibrary.simpleMessage("Efternamn"),
         "letsGo": MessageLookupByLibrary.simpleMessage("Låt oss gå"),
@@ -172,6 +177,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "messenger": MessageLookupByLibrary.simpleMessage("Messenger"),
         "minimumAge": MessageLookupByLibrary.simpleMessage("Minsta Ålder"),
         "minimumHeight": MessageLookupByLibrary.simpleMessage("Minsta Höjd"),
+        "mobile": MessageLookupByLibrary.simpleMessage("Mobil"),
         "mobileNumber": MessageLookupByLibrary.simpleMessage("Mobilnummer"),
         "myCreditWallet":
             MessageLookupByLibrary.simpleMessage("Min Kreditplånbok"),
@@ -190,9 +196,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "notifications": MessageLookupByLibrary.simpleMessage("Meddelanden"),
         "ok": MessageLookupByLibrary.simpleMessage("OK"),
         "on": MessageLookupByLibrary.simpleMessage("på"),
+        "orderID": MessageLookupByLibrary.simpleMessage("Beställnings-ID"),
+        "orderReference":
+            MessageLookupByLibrary.simpleMessage("Beställningsreferens"),
         "packageNotFound":
             MessageLookupByLibrary.simpleMessage("Paket inte hittat"),
+        "paidOn": MessageLookupByLibrary.simpleMessage("Betald den"),
         "password": MessageLookupByLibrary.simpleMessage("Lösenord"),
+        "paymentCancelledByUser": MessageLookupByLibrary.simpleMessage(
+            "Betalning avbruten av användaren."),
+        "paymentDetails":
+            MessageLookupByLibrary.simpleMessage("Betalningsdetaljer"),
         "paymentMethod":
             MessageLookupByLibrary.simpleMessage("Betalningsmetod"),
         "personal": MessageLookupByLibrary.simpleMessage("Personligt"),
@@ -203,6 +217,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "premium": MessageLookupByLibrary.simpleMessage("Premium"),
         "premiumMembershipExpiry":
             MessageLookupByLibrary.simpleMessage("Premiummedlemskap löper ut"),
+        "price": MessageLookupByLibrary.simpleMessage("Pris"),
         "privacyPolicy":
             MessageLookupByLibrary.simpleMessage("integritetspolicy"),
         "privately": MessageLookupByLibrary.simpleMessage("Privat"),
@@ -220,6 +235,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "reportUser":
             MessageLookupByLibrary.simpleMessage("Rapportera användare"),
         "requestDenied": MessageLookupByLibrary.simpleMessage("Begäran nekad"),
+        "resultCode": MessageLookupByLibrary.simpleMessage("Resultatkod"),
         "selectCountryCode":
             MessageLookupByLibrary.simpleMessage("Välj Landskod"),
         "selectLanguage": MessageLookupByLibrary.simpleMessage("Välj språk"),
@@ -257,6 +273,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "totalLikes": MessageLookupByLibrary.simpleMessage("Totalt Gillanden"),
         "totalViews": MessageLookupByLibrary.simpleMessage("Totalt Visningar"),
         "transaction": MessageLookupByLibrary.simpleMessage("Transaktion"),
+        "transactionInformation":
+            MessageLookupByLibrary.simpleMessage("Transaktionsinformation"),
         "tryingToConnect":
             MessageLookupByLibrary.simpleMessage("Försöker att ansluta..."),
         "unblock": MessageLookupByLibrary.simpleMessage("Avblockera"),

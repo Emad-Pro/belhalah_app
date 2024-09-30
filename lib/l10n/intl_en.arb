@@ -200,6 +200,19 @@
   "emailOtp": "Email OTP",
   "newPassword": "New Password",
   "confirmNewPassword": "Confirm New Password",
-  "submit": "Submit"
-  ,"kd":"K.D"
+  "submit": "Submit",
+  "kWD": "Kuwaiti Dinar",
+  "paymentDetails": "Payment Details",
+  "orderID": "Order ID",
+  "price": "Price",
+  "checkOut": "Check Out",
+  "paymentCancelledByUser": "Payment Cancelled by user.",
+  "transactionInformation": "Transaction Information",
+  "customerInformation": "Customer Information",
+  "orderReference": "Order Reference",
+  "resultCode": "Result Code",
+  "amount": "Amount",
+  "paidOn": "Paid On",
+  "customerName": "Customer Name",
+  "mobile": "Mobile"
 }

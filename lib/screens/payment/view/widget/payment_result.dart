@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:loveria/common/services/utils.dart';
 import 'package:loveria/screens/home.dart';
 import 'package:loveria/screens/payment/data/model/payment_response_model/payment_response_model.dart';
 
@@ -37,7 +38,7 @@ class PaymentResult extends StatelessWidget {
                 SizedBox(
                   height: 15,
                 ),
-                Text("تمت مقاطعة عملية الدفع من قبل المستخدم"),
+                Text(context.lwTranslate.paymentCancelledByUser),
                 SizedBox(
                   height: 15,
                 ),
@@ -56,7 +57,7 @@ class PaymentResult extends StatelessWidget {
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(12),
                             color: Theme.of(context).colorScheme.primary),
-                        child: Center(child: Text("Go Home")),
+                        child: Center(child: Text(context.lwTranslate.goHome)),
                       )),
                 )
               ],

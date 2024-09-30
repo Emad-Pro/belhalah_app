@@ -58,6 +58,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "almostFinishedYouNeedToConfirmYourEmailAddressTo":
             MessageLookupByLibrary.simpleMessage(
                 "もうすぐ終了します... メールアドレスを確認する必要があります。アクティベーションプロセスを完了するには、私たちが送ったメール内のリンクをクリックしてください。"),
+        "amount": MessageLookupByLibrary.simpleMessage("金額"),
         "and": MessageLookupByLibrary.simpleMessage(" および "),
         "apply": MessageLookupByLibrary.simpleMessage("適用"),
         "areYouSure": MessageLookupByLibrary.simpleMessage("本当によろしいですか？"),
@@ -75,6 +76,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "cancel": MessageLookupByLibrary.simpleMessage("キャンセル"),
         "changeEmail": MessageLookupByLibrary.simpleMessage("メールアドレスの変更"),
         "changePassword": MessageLookupByLibrary.simpleMessage("パスワードの変更"),
+        "checkOut": MessageLookupByLibrary.simpleMessage("チェックアウト"),
         "confirmNewPassword":
             MessageLookupByLibrary.simpleMessage("新しいパスワードを確認"),
         "confirmPassword": MessageLookupByLibrary.simpleMessage("パスワードを確認する"),
@@ -82,6 +84,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "creditPackages": MessageLookupByLibrary.simpleMessage("クレジットパッケージ"),
         "creditsCredits": m1,
         "currentEmail": MessageLookupByLibrary.simpleMessage("現在のメールアドレス"),
+        "customerInformation": MessageLookupByLibrary.simpleMessage("顧客情報"),
+        "customerName": MessageLookupByLibrary.simpleMessage("顧客名"),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("アカウントを削除する"),
         "deleteAllChatHistory":
             MessageLookupByLibrary.simpleMessage("すべてのチャット履歴を削除する"),
@@ -123,7 +127,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "home": MessageLookupByLibrary.simpleMessage("ホーム"),
         "iAcceptAllThe": MessageLookupByLibrary.simpleMessage("私はすべてを受け入れます"),
         "itemPriceCredits": m4,
-        "kd": MessageLookupByLibrary.simpleMessage("K.D"),
+        "kWD": MessageLookupByLibrary.simpleMessage("KWD"),
         "language": MessageLookupByLibrary.simpleMessage("言語"),
         "lastName": MessageLookupByLibrary.simpleMessage("姓"),
         "letsGo": MessageLookupByLibrary.simpleMessage("さあ、始めましょう"),
@@ -151,6 +155,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "messenger": MessageLookupByLibrary.simpleMessage("メッセンジャー"),
         "minimumAge": MessageLookupByLibrary.simpleMessage("最低年齢"),
         "minimumHeight": MessageLookupByLibrary.simpleMessage("最低身長"),
+        "mobile": MessageLookupByLibrary.simpleMessage("携帯電話"),
         "mobileNumber": MessageLookupByLibrary.simpleMessage("携帯電話番号"),
         "myCreditWallet": MessageLookupByLibrary.simpleMessage("私のクレジットウォレット"),
         "myPhotos": MessageLookupByLibrary.simpleMessage("私の写真"),
@@ -166,9 +171,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "notifications": MessageLookupByLibrary.simpleMessage("通知"),
         "ok": MessageLookupByLibrary.simpleMessage("OK"),
         "on": MessageLookupByLibrary.simpleMessage("で"),
+        "orderID": MessageLookupByLibrary.simpleMessage("注文ID"),
+        "orderReference": MessageLookupByLibrary.simpleMessage("注文参照"),
         "packageNotFound":
             MessageLookupByLibrary.simpleMessage("パッケージが見つかりません"),
+        "paidOn": MessageLookupByLibrary.simpleMessage("支払い日"),
         "password": MessageLookupByLibrary.simpleMessage("パスワード"),
+        "paymentCancelledByUser":
+            MessageLookupByLibrary.simpleMessage("ユーザーによって支払いがキャンセルされました。"),
+        "paymentDetails": MessageLookupByLibrary.simpleMessage("支払いの詳細"),
         "paymentMethod": MessageLookupByLibrary.simpleMessage("支払い方法"),
         "personal": MessageLookupByLibrary.simpleMessage("個人的"),
         "pleaseSelectAPlan":
@@ -177,6 +188,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "premium": MessageLookupByLibrary.simpleMessage("プレミアム"),
         "premiumMembershipExpiry":
             MessageLookupByLibrary.simpleMessage("プレミアム会員資格の有効期限"),
+        "price": MessageLookupByLibrary.simpleMessage("価格"),
         "privacyPolicy": MessageLookupByLibrary.simpleMessage("プライバシーポリシー"),
         "privately": MessageLookupByLibrary.simpleMessage("個人的に"),
         "profileCoverPhoto":
@@ -190,6 +202,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "reportAbuse": MessageLookupByLibrary.simpleMessage("虐待通報"),
         "reportUser": MessageLookupByLibrary.simpleMessage("ユーザーを報告する"),
         "requestDenied": MessageLookupByLibrary.simpleMessage("リクエストが拒否されました"),
+        "resultCode": MessageLookupByLibrary.simpleMessage("結果コード"),
         "selectCountryCode": MessageLookupByLibrary.simpleMessage("国コードを選択"),
         "selectLanguage": MessageLookupByLibrary.simpleMessage("言語を選択"),
         "selectPlan": MessageLookupByLibrary.simpleMessage("プランを選択"),
@@ -223,6 +236,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "totalLikes": MessageLookupByLibrary.simpleMessage("総いいね数"),
         "totalViews": MessageLookupByLibrary.simpleMessage("総閲覧数"),
         "transaction": MessageLookupByLibrary.simpleMessage("取引"),
+        "transactionInformation": MessageLookupByLibrary.simpleMessage("取引情報"),
         "tryingToConnect": MessageLookupByLibrary.simpleMessage("接続を試行中..."),
         "unblock": MessageLookupByLibrary.simpleMessage("ブロック解除"),
         "updatePhoto": MessageLookupByLibrary.simpleMessage("写真を更新"),

@@ -547,5 +547,44 @@ class AppLocalizationsHi extends AppLocalizations {
   String get submit => 'सबमिट';
 
   @override
-  String get kd => 'K.D';
+  String get kWD => 'KWD';
+
+  @override
+  String get paymentDetails => 'भुगतान विवरण';
+
+  @override
+  String get orderID => 'ऑर्डर आईडी';
+
+  @override
+  String get price => 'कीमत';
+
+  @override
+  String get checkOut => 'चेक आउट';
+
+  @override
+  String get paymentCancelledByUser => 'उपयोगकर्ता द्वारा भुगतान रद्द किया गया।';
+
+  @override
+  String get transactionInformation => 'लेनदेन जानकारी';
+
+  @override
+  String get customerInformation => 'ग्राहक जानकारी';
+
+  @override
+  String get orderReference => 'ऑर्डर संदर्भ';
+
+  @override
+  String get resultCode => 'परिणाम कोड';
+
+  @override
+  String get amount => 'राशि';
+
+  @override
+  String get paidOn => 'भुगतान किया गया';
+
+  @override
+  String get customerName => 'ग्राहक का नाम';
+
+  @override
+  String get mobile => 'मोबाइल';
 }

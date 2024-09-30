@@ -547,5 +547,44 @@ class AppLocalizationsTr extends AppLocalizations {
   String get submit => 'Gönder';
 
   @override
-  String get kd => 'K.D';
+  String get kWD => 'KWD';
+
+  @override
+  String get paymentDetails => 'Ödeme Detayları';
+
+  @override
+  String get orderID => 'Sipariş ID';
+
+  @override
+  String get price => 'Fiyat';
+
+  @override
+  String get checkOut => 'Ödemeyi Tamamla';
+
+  @override
+  String get paymentCancelledByUser => 'Kullanıcı tarafından ödeme iptal edildi.';
+
+  @override
+  String get transactionInformation => 'İşlem Bilgileri';
+
+  @override
+  String get customerInformation => 'Müşteri Bilgileri';
+
+  @override
+  String get orderReference => 'Sipariş Referansı';
+
+  @override
+  String get resultCode => 'Sonuç Kodu';
+
+  @override
+  String get amount => 'Miktar';
+
+  @override
+  String get paidOn => 'Tarihinde Ödendi';
+
+  @override
+  String get customerName => 'Müşteri Adı';
+
+  @override
+  String get mobile => 'Mobil';
 }

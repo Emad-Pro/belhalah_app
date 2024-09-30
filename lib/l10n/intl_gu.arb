@@ -200,6 +200,19 @@
   "emailOtp": "ઇમેલ OTP",
   "newPassword": "નવો પાસવર્ડ",
   "confirmNewPassword": "નવો પાસવર્ડ પુષ્ટિ કરો",
-  "submit": "મોકલો"
-  ,"kd":"કુવૈતી દિનાર"
+  "submit": "મોકલો",
+  "kWD": "કુવૈતી દિવસ",
+  "paymentDetails": "ભૂગતાન વિગતો",
+  "orderID": "ઓર્ડર આઇડી",
+  "price": "કિંમત",
+  "checkOut": "ચેકઆઉટ",
+  "paymentCancelledByUser": "વપરાશકર્તા દ્વારા ચુકવણી રદ્દ કરવામાં આવી છે.",
+  "transactionInformation": "લેણદેણની માહિતી",
+  "customerInformation": "ગ્રાહક માહિતી",
+  "orderReference": "ઓર્ડર સંદર્ભ",
+  "resultCode": "પરિણામ કોડ",
+  "amount": "જથ્થો",
+  "paidOn": "ચુકવવામાં આવ્યું",
+  "customerName": "ગ્રાહકનું નામ",
+  "mobile": "મોબાઇલ"
 }

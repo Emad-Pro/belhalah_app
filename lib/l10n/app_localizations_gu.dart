@@ -547,5 +547,44 @@ class AppLocalizationsGu extends AppLocalizations {
   String get submit => 'મોકલો';
 
   @override
-  String get kd => 'કુવૈતી દિનાર';
+  String get kWD => 'કુવૈતી દિવસ';
+
+  @override
+  String get paymentDetails => 'ભૂગતાન વિગતો';
+
+  @override
+  String get orderID => 'ઓર્ડર આઇડી';
+
+  @override
+  String get price => 'કિંમત';
+
+  @override
+  String get checkOut => 'ચેકઆઉટ';
+
+  @override
+  String get paymentCancelledByUser => 'વપરાશકર્તા દ્વારા ચુકવણી રદ્દ કરવામાં આવી છે.';
+
+  @override
+  String get transactionInformation => 'લેણદેણની માહિતી';
+
+  @override
+  String get customerInformation => 'ગ્રાહક માહિતી';
+
+  @override
+  String get orderReference => 'ઓર્ડર સંદર્ભ';
+
+  @override
+  String get resultCode => 'પરિણામ કોડ';
+
+  @override
+  String get amount => 'જથ્થો';
+
+  @override
+  String get paidOn => 'ચુકવવામાં આવ્યું';
+
+  @override
+  String get customerName => 'ગ્રાહકનું નામ';
+
+  @override
+  String get mobile => 'મોબાઇલ';
 }

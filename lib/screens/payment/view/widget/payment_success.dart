@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:loveria/common/services/utils.dart';
 import 'package:loveria/screens/home.dart';
 import 'package:loveria/screens/payment/data/model/payment_response_model/payment_response_model.dart';
 import '../../../../common/services/auth.dart' as auth;
@@ -7,7 +8,7 @@ import '../../presenter/payment_provider.dart';
 class PaymentDetailsPage extends StatelessWidget {
   final PaymentResponseModel paymentResponseModel;
   final PaymentState state;
-  const PaymentDetailsPage(
+  PaymentDetailsPage(
       {Key? key, required this.paymentResponseModel, required this.state})
       : super(key: key);
 
@@ -15,31 +16,33 @@ class PaymentDetailsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Payment Details'),
+        title: Text(context.lwTranslate.paymentDetails),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: EdgeInsets.all(16.0),
         child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Center(
                   child: Padding(
-                padding: const EdgeInsets.all(15.0),
+                padding: EdgeInsets.all(15.0),
                 child: Column(
                   children: [
                     _buildStatusPaymentIcon(context, state),
                     Text(
                       paymentResponseModel.resultCode!,
-                      style: const TextStyle(fontSize: 18),
+                      style: TextStyle(fontSize: 18),
                     )
                   ],
                 ),
               )),
-              _buildPaymentCard(context, "Transaction Information"),
-              const SizedBox(height: 20),
-              _buildCustomerCard(context, "Customer Information"),
-              const SizedBox(height: 20),
+              _buildPaymentCard(
+                  context, context.lwTranslate.transactionInformation),
+              SizedBox(height: 20),
+              _buildCustomerCard(
+                  context, context.lwTranslate.customerInformation),
+              SizedBox(height: 20),
               Center(
                 child: InkWell(
                     borderRadius: BorderRadius.circular(12),
@@ -55,7 +58,7 @@ class PaymentDetailsPage extends StatelessWidget {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(12),
                           color: Theme.of(context).colorScheme.primary),
-                      child: Center(child: Text("Go Home")),
+                      child: Center(child: Text(context.lwTranslate.goHome)),
                     )),
               )
             ],
@@ -69,7 +72,7 @@ class PaymentDetailsPage extends StatelessWidget {
     switch (state) {
       case PaymentState.loading:
       case PaymentState.cancel:
-        return const Icon(
+        return Icon(
           Icons.cancel,
           size: 100,
           color: Colors.amber,
@@ -113,35 +116,35 @@ class PaymentDetailsPage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Padding(
-                  padding: const EdgeInsets.all(16.0),
+                  padding: EdgeInsets.all(16.0),
                   child: Column(
                     children: [
                       _buildListTile(
                         context,
                         icon: Icons.receipt,
-                        title: 'Order Reference',
+                        title: context.lwTranslate.orderReference,
                         subtitle:
                             paymentResponseModel.orderReferenceNumber ?? 'N/A',
                       ),
-                      const Divider(height: 1),
+                      Divider(height: 1),
                       _buildListTile(
                         context,
                         icon: Icons.code,
-                        title: 'Result Code',
+                        title: context.lwTranslate.resultCode,
                         subtitle: paymentResponseModel.resultCode ?? 'N/A',
                       ),
-                      const Divider(height: 1),
+                      Divider(height: 1),
                       _buildListTile(
                         context,
                         icon: Icons.attach_money,
-                        title: 'Amount',
+                        title: context.lwTranslate.amount,
                         subtitle: '${paymentResponseModel.amount! ?? 'N/A'}',
                       ),
-                      const Divider(height: 1),
+                      Divider(height: 1),
                       _buildListTile(
                         context,
                         icon: Icons.update,
-                        title: 'Paid On',
+                        title: context.lwTranslate.paidOn,
                         subtitle: paymentResponseModel.paidOn ?? 'N/A',
                       ),
                     ],
@@ -175,31 +178,31 @@ class PaymentDetailsPage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Padding(
-                  padding: const EdgeInsets.all(16.0),
+                  padding: EdgeInsets.all(16.0),
                   child: Column(
                     children: [
                       _buildListTile(
                         context,
                         icon: Icons.person,
-                        title: 'Customer Name',
+                        title: context.lwTranslate.customerName,
                         subtitle: paymentResponseModel.customer!.name == " "
                             ? auth.getAuthInfo('full_name')
                             : paymentResponseModel.customer!.name,
                       ),
-                      const Divider(height: 1),
+                      Divider(height: 1),
                       _buildListTile(
                         context,
                         icon: Icons.email,
-                        title: 'Email',
+                        title: context.lwTranslate.email,
                         subtitle: paymentResponseModel.customer?.email ?? 'N/A',
                       ),
                       if (paymentResponseModel.customer?.mobile != null)
-                        const Divider(height: 1),
+                        Divider(height: 1),
                       if (paymentResponseModel.customer?.mobile != null)
                         _buildListTile(
                           context,
                           icon: Icons.phone,
-                          title: 'Mobile',
+                          title: context.lwTranslate.mobile,
                           subtitle:
                               paymentResponseModel.customer?.mobile ?? 'N/A',
                         ),
@@ -224,8 +227,8 @@ class PaymentDetailsPage extends StatelessWidget {
     return ListTile(
       leading: Icon(icon, color: Theme.of(context).colorScheme.primary),
       title: Text(title,
-          style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
-      subtitle: Text(subtitle, style: const TextStyle(fontSize: 14)),
+          style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+      subtitle: Text(subtitle, style: TextStyle(fontSize: 14)),
     );
   }
 }
