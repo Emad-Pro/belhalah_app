@@ -32,52 +32,48 @@ dependencies:
     sdk: flutter
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.5
+  cupertino_icons: 
   # provider: ^6.0.0
   intl: any
-  url_launcher: ^6.1.9
-  flutter_svg: ^2.0.7
-  http: ^1.1.0
-  shared_preferences: ^2.1.2
+  url_launcher: 
+  flutter_svg: 
+  http: 
+  shared_preferences: 
   # form field encryption etc
-  basic_utils: ^5.4.2
-  pointycastle: ^3.6.2
-  form_validator: ^2.1.1
-  convex_bottom_bar: ^3.1.0+1
-  progress_loading_button: ^2.0.2
+  basic_utils: 
+  pointycastle: 
+  form_validator: 
+  convex_bottom_bar: 
+  progress_loading_button: 
   photo_card_swiper:
     git:
       url: https://github.com/livelyworks/photo_card_swiper
-  animations: ^2.0.7
-  expandable: ^5.0.1
-  photo_view: ^0.15.0
-  file_picker: ^8.0.0+1
-  cached_network_image: ^3.2.3
-  badges: ^3.0.2
-  like_button: ^2.0.5
-  flutter_map: ^7.0.1
-  latlong2: ^0.9.0
-  easy_autocomplete: ^1.6.0
-  pusher_channels_flutter: ^2.1.0
-  fbroadcast: ^2.0.0
-  emoji_picker_flutter: ^2.1.1
-  giphy_get: ^3.2.0
-  permission_handler: ^11.0.1
-  agora_rtc_engine: ^6.3.2
-  flutter_smart_dialog: ^4.8.2
-  audioplayers: ^6.0.0
-  in_app_purchase: ^3.1.7
-  in_app_purchase_storekit: ^0.3.6+4
-  in_app_purchase_android: ^0.3.0+5
-  custom_timer: ^0.2.3
-  google_mobile_ads: 
-  social_login_buttons: ^1.0.7
-  flutter_facebook_auth: ^7.0.1
-  google_sign_in: ^6.1.4
-  hesabe:
-   git:
-      url: https://github.com/hesabe-tech-team/api2-kit-flutter.git
-      ref: flutterv3
+  animations: 
+  expandable: 
+  photo_view: 
+  file_picker: 
+  cached_network_image: 
+  badges: 
+  like_button: 
+  flutter_map: 
+  latlong2: 
+  easy_autocomplete:
+  fbroadcast:
+  emoji_picker_flutter: 
+  giphy_get:
+  permission_handler:
+  agora_rtc_engine:
+  flutter_smart_dialog:
+  audioplayers:
+  in_app_purchase: 
+  in_app_purchase_storekit:
+  in_app_purchase_android:
+  custom_timer:
+  social_login_buttons:
+  flutter_facebook_auth: 
+  google_sign_in: 
+  webview_flutter: 
+  google_mobile_ads: ^5.1.0
 
   flutter_localizations:
     sdk: flutter
@@ -86,6 +82,12 @@ dependencies:
   intl_translation: ^0.20.0
   freezed_annotation: ^2.4.4
   json_annotation: ^4.9.0
+  webview_flutter_android:
+  webview_flutter_wkwebview: ^3.15.0
+  eventify: ^1.0.1
+  dio: ^5.7.0
+  retrofit: ^4.4.1
+  encrypt: ^5.0.3
 
 
 

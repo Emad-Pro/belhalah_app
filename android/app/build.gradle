@@ -29,8 +29,8 @@ def keystoreProperties = new Properties()
    }
 
 android {
-    compileSdkVersion flutter.compileSdkVersion
-    ndkVersion flutter.ndkVersion
+    compileSdk 34
+    ndkVersion "25.1.8937393"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -53,9 +53,12 @@ android {
         // minSdkVersion flutter.minSdkVersion
         // minSdkVersion 19
         minSdkVersion 21
-        targetSdkVersion flutter.targetSdkVersion
+        targetSdk 34
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+
+        proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        multiDexEnabled true
     }
 
        signingConfigs {
@@ -71,6 +74,8 @@ android {
            signingConfig signingConfigs.release
        }
    }
+    namespace 'net.livelyworks.loveria_demo'
+    buildToolsVersion '34.0.0'
 
 }
 

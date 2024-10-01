@@ -16,5 +16,4 @@ subprojects {
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
-
-ext.kotlin_version = '1.7.10' // تم التحديث هنا
+ext.kotlin_version = "1.8.22"

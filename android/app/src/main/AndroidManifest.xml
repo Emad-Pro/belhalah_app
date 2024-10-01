@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="net.livelyworks.loveria_demo">
     <!-- facebook login -->
     <uses-permission android:name="android.permission.INTERNET"/>

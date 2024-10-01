@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:hesabe/hesabe.dart';
+
+import 'package:loveria/hesabe/hesabe.dart';
 import 'package:loveria/screens/payment/data/model/initial_payment_model.dart';
 import 'package:loveria/screens/payment/data/model/payment_response_model/payment_response_model.dart';
 import '../data/model/hesabe_credentials_model/hesabe_credentials_model.dart';

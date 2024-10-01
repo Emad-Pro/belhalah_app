@@ -6,6 +6,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
+import '../test/lib/pusher_channels_flutter.dart';
 import 'messenger/audio_video_calls.dart';
 import 'user/login.dart';
 import '../common/services/auth.dart';
@@ -17,7 +18,6 @@ import 'my_photos.dart';
 import 'profile_details.dart';
 import 'users_list.dart';
 import '../common/services/auth.dart' as auth;
-import 'package:pusher_channels_flutter/pusher_channels_flutter.dart';
 
 class LandingPage extends StatefulWidget {
   const LandingPage(
