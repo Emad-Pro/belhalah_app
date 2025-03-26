@@ -264,7 +264,7 @@ getPreferences(key, {defaultValue}) {
   return sharedPreferencesCache?.get(key) ?? defaultValue;
 }
 
-getCurrentLocale() {
+Locale getCurrentLocale() {
   return Locale(getPreferences('locale') ?? Platform.localeName.split('_')[0]);
 }
 

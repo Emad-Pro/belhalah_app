@@ -146,7 +146,7 @@ class _HomePageState extends State<HomePage> {
                                                   const LoginPage(),
                                                 );
                                               },
-                                              child: const Padding(
+                                              child: Padding(
                                                 padding: EdgeInsets.only(
                                                   left: 16.0,
                                                   right: 16.0,
@@ -154,7 +154,7 @@ class _HomePageState extends State<HomePage> {
                                                   bottom: 12,
                                                 ),
                                                 child: Text(
-                                                  "Login",
+                                                  context.lwTranslate.login,
                                                   style: TextStyle(
                                                     // color: app_theme.text,
                                                     fontWeight: FontWeight.w600,

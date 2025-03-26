@@ -58,7 +58,10 @@ class _AbuseReportPageState extends State<AbuseReportPage> {
                           onSaved: (String? value) {
                             formInputData['report_reason'] = value;
                           },
-                          validation: ValidationBuilder().minLength(3).build(),
+                          validation: ValidationBuilder(
+                                  localeName: getCurrentLocale().languageCode)
+                              .minLength(3)
+                              .build(),
                         ),
                         LoadingButton(
                           defaultWidget: Text(

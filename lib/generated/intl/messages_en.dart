@@ -47,6 +47,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "aboutMe": MessageLookupByLibrary.simpleMessage("About Me"),
         "aboutUs": MessageLookupByLibrary.simpleMessage("About us"),
         "abuseReport": MessageLookupByLibrary.simpleMessage("Abuse report"),
+        "accept": MessageLookupByLibrary.simpleMessage("Accept"),
         "accountCreatedSuccessfully": MessageLookupByLibrary.simpleMessage(
             "Account Created Successfully"),
         "activateYourNewEmailAddress": MessageLookupByLibrary.simpleMessage(
@@ -59,7 +60,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "almostFinishedYouNeedToConfirmYourEmailAddressTo":
             MessageLookupByLibrary.simpleMessage(
                 "Almost finished... You need to confirm your email address. To complete the activation process, please click the link in the email we just sent you."),
-        "amount": MessageLookupByLibrary.simpleMessage("Cantidad"),
+        "amount": MessageLookupByLibrary.simpleMessage("Amount"),
         "and": MessageLookupByLibrary.simpleMessage(" and "),
         "apply": MessageLookupByLibrary.simpleMessage("Apply"),
         "areYouSure": MessageLookupByLibrary.simpleMessage("Are you sure?"),
@@ -77,11 +78,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "buyMoreCredits":
             MessageLookupByLibrary.simpleMessage("Buy More Credits"),
         "byBoostingYourProfileYouWillBeAPartOf": m0,
+        "callConnectedTo":
+            MessageLookupByLibrary.simpleMessage("Call Connected To"),
         "cancel": MessageLookupByLibrary.simpleMessage("Cancel"),
         "changeEmail": MessageLookupByLibrary.simpleMessage("Change Email"),
         "changePassword":
             MessageLookupByLibrary.simpleMessage("Change Password"),
-        "checkOut": MessageLookupByLibrary.simpleMessage("Finalizar compra"),
+        "checkOut": MessageLookupByLibrary.simpleMessage("Check Out"),
         "confirmNewPassword":
             MessageLookupByLibrary.simpleMessage("Confirm New Password"),
         "confirmPassword":
@@ -92,10 +95,11 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Credit Packages"),
         "creditsCredits": m1,
         "currentEmail": MessageLookupByLibrary.simpleMessage("Current Email"),
+        "currentPassword":
+            MessageLookupByLibrary.simpleMessage("Current Password"),
         "customerInformation":
-            MessageLookupByLibrary.simpleMessage("Información del cliente"),
-        "customerName":
-            MessageLookupByLibrary.simpleMessage("Nombre del cliente"),
+            MessageLookupByLibrary.simpleMessage("Customer Information"),
+        "customerName": MessageLookupByLibrary.simpleMessage("Customer Name"),
         "deleteAccount": MessageLookupByLibrary.simpleMessage("Delete Account"),
         "deleteAllChatHistory":
             MessageLookupByLibrary.simpleMessage("Delete All Chat History"),
@@ -141,13 +145,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "iAcceptAllThe":
             MessageLookupByLibrary.simpleMessage("I accept all the "),
         "itemPriceCredits": m4,
-        "kWD": MessageLookupByLibrary.simpleMessage("KWD"),
+        "join": MessageLookupByLibrary.simpleMessage("Join"),
+        "joinedTheChannel":
+            MessageLookupByLibrary.simpleMessage("Joined The Channel"),
+        "kWD": MessageLookupByLibrary.simpleMessage("Kuwaiti Dinar"),
         "language": MessageLookupByLibrary.simpleMessage("Language"),
         "lastName": MessageLookupByLibrary.simpleMessage("Last Name"),
+        "leavedTheChannel":
+            MessageLookupByLibrary.simpleMessage("Left The Channel"),
         "letsGo": MessageLookupByLibrary.simpleMessage("Let\'s Go"),
         "loading": MessageLookupByLibrary.simpleMessage("loading ..."),
         "loadingMessages":
             MessageLookupByLibrary.simpleMessage("loading messages ..."),
+        "localUser": MessageLookupByLibrary.simpleMessage("Local User"),
         "location": MessageLookupByLibrary.simpleMessage("Location"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "lookingFor": MessageLookupByLibrary.simpleMessage("Looking for"),
@@ -173,7 +183,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "messenger": MessageLookupByLibrary.simpleMessage("Messenger"),
         "minimumAge": MessageLookupByLibrary.simpleMessage("Minimum Age"),
         "minimumHeight": MessageLookupByLibrary.simpleMessage("Minimum Height"),
-        "mobile": MessageLookupByLibrary.simpleMessage("Móvil"),
+        "mobile": MessageLookupByLibrary.simpleMessage("Mobile"),
         "mobileNumber": MessageLookupByLibrary.simpleMessage("Mobile Number"),
         "myCreditWallet":
             MessageLookupByLibrary.simpleMessage("My Credit Wallet"),
@@ -185,6 +195,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "newEmail": MessageLookupByLibrary.simpleMessage("New Email"),
         "newPassword": MessageLookupByLibrary.simpleMessage("New Password"),
         "no": MessageLookupByLibrary.simpleMessage("No"),
+        "noRecents": MessageLookupByLibrary.simpleMessage("No Recents"),
         "noResultFound":
             MessageLookupByLibrary.simpleMessage("no result found"),
         "notConnected": MessageLookupByLibrary.simpleMessage("Not connected"),
@@ -192,19 +203,21 @@ class MessageLookup extends MessageLookupByLibrary {
         "notifications": MessageLookupByLibrary.simpleMessage("Notifications"),
         "ok": MessageLookupByLibrary.simpleMessage("OK"),
         "on": MessageLookupByLibrary.simpleMessage("on"),
-        "orderID": MessageLookupByLibrary.simpleMessage("ID de pedido"),
+        "orderID": MessageLookupByLibrary.simpleMessage("Order ID"),
         "orderReference":
-            MessageLookupByLibrary.simpleMessage("Referencia de pedido"),
+            MessageLookupByLibrary.simpleMessage("Order Reference"),
         "packageNotFound":
             MessageLookupByLibrary.simpleMessage("Package not found"),
-        "paidOn": MessageLookupByLibrary.simpleMessage("Pagado en"),
+        "paidOn": MessageLookupByLibrary.simpleMessage("Paid On"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
-        "paymentCancelledByUser": MessageLookupByLibrary.simpleMessage(
-            "Pago cancelado por el usuario."),
+        "paymentCancelledByUser":
+            MessageLookupByLibrary.simpleMessage("Payment Cancelled by user."),
         "paymentDetails":
-            MessageLookupByLibrary.simpleMessage("Detalles del pago"),
+            MessageLookupByLibrary.simpleMessage("Payment Details"),
         "paymentMethod": MessageLookupByLibrary.simpleMessage("Payment Method"),
         "personal": MessageLookupByLibrary.simpleMessage("Personal"),
+        "pleaseActivateYourNewEmailAddress": MessageLookupByLibrary.simpleMessage(
+            "Almost finished... You need to confirm your email address. To complete the activation process, please click the link in the email we just sent you."),
         "pleaseSelectAPlan":
             MessageLookupByLibrary.simpleMessage("Please select a plan"),
         "preferredLanguage":
@@ -212,7 +225,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "premium": MessageLookupByLibrary.simpleMessage("Premium"),
         "premiumMembershipExpiry":
             MessageLookupByLibrary.simpleMessage("Premium Membership Expiry"),
-        "price": MessageLookupByLibrary.simpleMessage("Precio"),
+        "price": MessageLookupByLibrary.simpleMessage("Price"),
         "privacyPolicy": MessageLookupByLibrary.simpleMessage("privacy policy"),
         "privately": MessageLookupByLibrary.simpleMessage("Privately"),
         "profileCoverPhoto":
@@ -224,12 +237,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "register": MessageLookupByLibrary.simpleMessage("Register"),
         "relationshipStatus":
             MessageLookupByLibrary.simpleMessage("Relationship Status"),
+        "remoteUser": MessageLookupByLibrary.simpleMessage("Remote User"),
         "report": MessageLookupByLibrary.simpleMessage("Report"),
         "reportAbuse": MessageLookupByLibrary.simpleMessage("Report Abuse"),
         "reportUser": MessageLookupByLibrary.simpleMessage("Report User"),
         "requestDenied": MessageLookupByLibrary.simpleMessage("Request Denied"),
-        "resultCode":
-            MessageLookupByLibrary.simpleMessage("Código de resultado"),
+        "resultCode": MessageLookupByLibrary.simpleMessage("Result Code"),
         "selectCountryCode":
             MessageLookupByLibrary.simpleMessage("Select Country Code"),
         "selectLanguage":
@@ -256,6 +269,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Sign in with Facebook"),
         "signInWithGoogle":
             MessageLookupByLibrary.simpleMessage("Sign in with Google"),
+        "stickers": MessageLookupByLibrary.simpleMessage("Stickers"),
         "submit": MessageLookupByLibrary.simpleMessage("Submit"),
         "termsConditions":
             MessageLookupByLibrary.simpleMessage("terms & conditions"),
@@ -268,13 +282,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "totalViews": MessageLookupByLibrary.simpleMessage("Total Views"),
         "transaction": MessageLookupByLibrary.simpleMessage("Transaction"),
         "transactionInformation":
-            MessageLookupByLibrary.simpleMessage("Información de transacción"),
+            MessageLookupByLibrary.simpleMessage("Transaction Information"),
         "tryingToConnect":
             MessageLookupByLibrary.simpleMessage("Trying to connect..."),
+        "type": MessageLookupByLibrary.simpleMessage("Type"),
         "unblock": MessageLookupByLibrary.simpleMessage("Unblock"),
         "updatePhoto": MessageLookupByLibrary.simpleMessage("Update Photo"),
         "updateSettings":
             MessageLookupByLibrary.simpleMessage("Update Settings"),
+        "uploadNewImage":
+            MessageLookupByLibrary.simpleMessage("Upload New Image"),
         "uploadNewPhotos":
             MessageLookupByLibrary.simpleMessage("Profile Photo"),
         "userBlocked": MessageLookupByLibrary.simpleMessage("User blocked"),

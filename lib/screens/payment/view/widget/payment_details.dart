@@ -56,136 +56,138 @@ class _PaymentOrderDetailsState extends State<PaymentOrderDetails> {
             ),
             body: Padding(
               padding: const EdgeInsets.all(16.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text("Payment Details",
-                      style: TextStyle(
-                          fontSize: 18,
-                          color: Theme.of(context).colorScheme.primary)),
-                  Padding(
-                      padding: const EdgeInsets.all(16.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          // Card to make the layout look cleaner
-                          Card(
-                            elevation: 4,
-                            margin: const EdgeInsets.symmetric(vertical: 8),
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(12),
-                            ),
-                            child: Padding(
-                              padding: const EdgeInsets.all(16.0),
-                              child: Column(
-                                children: [
-                                  ListTile(
-                                    leading: const Icon(Icons.person,
-                                        color: Colors.blue),
-                                    title: Text(context.lwTranslate.firstName,
-                                        style: TextStyle(
-                                            fontSize: 18,
-                                            fontWeight: FontWeight.bold)),
-                                    subtitle: Text(
-                                        auth.getAuthInfo('first_name') ?? '',
-                                        style: const TextStyle(fontSize: 16)),
-                                  ),
-                                  const Divider(
-                                    height: 0.1,
-                                  ),
-                                  ListTile(
-                                    leading: const Icon(Icons.person_outline,
-                                        color: Colors.blue),
-                                    title: Text(context.lwTranslate.lastName,
-                                        style: TextStyle(
-                                            fontSize: 18,
-                                            fontWeight: FontWeight.bold)),
-                                    subtitle: Text(
-                                        auth.getAuthInfo('last_name') ?? '',
-                                        style: const TextStyle(fontSize: 16)),
-                                  ),
-                                  const Divider(
-                                    height: 0.1,
-                                  ),
-                                  ListTile(
-                                    leading: const Icon(Icons.email,
-                                        color: Colors.blue),
-                                    title: Text(context.lwTranslate.email,
-                                        style: TextStyle(
-                                            fontSize: 18,
-                                            fontWeight: FontWeight.bold)),
-                                    subtitle: Text(
-                                        auth.getAuthInfo('email') ?? '',
-                                        style: const TextStyle(fontSize: 16)),
-                                  ),
-                                  const Divider(
-                                    height: 0.1,
-                                  ),
-                                  ListTile(
-                                    leading: const Icon(Icons.receipt,
-                                        color: Colors.green),
-                                    title: Text(context.lwTranslate.orderID,
-                                        style: TextStyle(
-                                            fontSize: 18,
-                                            fontWeight: FontWeight.bold)),
-                                    subtitle: Text(
-                                        hesabeCredentials.orderUid ?? '',
-                                        style: const TextStyle(fontSize: 16)),
-                                  ),
-                                  const Divider(
-                                    height: 0.1,
-                                  ),
-                                  ListTile(
-                                    leading: const Icon(Icons.attach_money,
-                                        color: Colors.green),
-                                    title: Text(context.lwTranslate.price,
-                                        style: TextStyle(
-                                            fontSize: 18,
-                                            fontWeight: FontWeight.bold)),
-                                    subtitle: Text(
-                                        '${hesabeCredentials.amount ?? 0} ${hesabeCredentials.currencyCode ?? ''}',
-                                        style: const TextStyle(fontSize: 16)),
-                                  ),
-                                  const Divider(
-                                    height: 0.1,
-                                  ),
-                                  ListTile(
-                                    leading: const Icon(Icons.update,
-                                        color: Colors.orange),
-                                    title: Text(context.lwTranslate.version,
-                                        style: TextStyle(
-                                            fontSize: 18,
-                                            fontWeight: FontWeight.bold)),
-                                    subtitle: Text(
-                                        hesabeCredentials.version ?? '',
-                                        style: const TextStyle(fontSize: 16)),
-                                  ),
-                                ],
+              child: SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(context.lwTranslate.paymentDetails,
+                        style: TextStyle(
+                            fontSize: 18,
+                            color: Theme.of(context).colorScheme.primary)),
+                    Padding(
+                        padding: const EdgeInsets.all(16.0),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            // Card to make the layout look cleaner
+                            Card(
+                              elevation: 4,
+                              margin: const EdgeInsets.symmetric(vertical: 8),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(12),
+                              ),
+                              child: Padding(
+                                padding: const EdgeInsets.all(16.0),
+                                child: Column(
+                                  children: [
+                                    ListTile(
+                                      leading: const Icon(Icons.person,
+                                          color: Colors.blue),
+                                      title: Text(context.lwTranslate.firstName,
+                                          style: const TextStyle(
+                                              fontSize: 18,
+                                              fontWeight: FontWeight.bold)),
+                                      subtitle: Text(
+                                          auth.getAuthInfo('first_name') ?? '',
+                                          style: const TextStyle(fontSize: 16)),
+                                    ),
+                                    const Divider(
+                                      height: 0.1,
+                                    ),
+                                    ListTile(
+                                      leading: const Icon(Icons.person_outline,
+                                          color: Colors.blue),
+                                      title: Text(context.lwTranslate.lastName,
+                                          style: const TextStyle(
+                                              fontSize: 18,
+                                              fontWeight: FontWeight.bold)),
+                                      subtitle: Text(
+                                          auth.getAuthInfo('last_name') ?? '',
+                                          style: const TextStyle(fontSize: 16)),
+                                    ),
+                                    const Divider(
+                                      height: 0.1,
+                                    ),
+                                    ListTile(
+                                      leading: const Icon(Icons.email,
+                                          color: Colors.blue),
+                                      title: Text(context.lwTranslate.email,
+                                          style: const TextStyle(
+                                              fontSize: 18,
+                                              fontWeight: FontWeight.bold)),
+                                      subtitle: Text(
+                                          auth.getAuthInfo('email') ?? '',
+                                          style: const TextStyle(fontSize: 16)),
+                                    ),
+                                    const Divider(
+                                      height: 0.1,
+                                    ),
+                                    ListTile(
+                                      leading: const Icon(Icons.receipt,
+                                          color: Colors.green),
+                                      title: Text(context.lwTranslate.orderID,
+                                          style: const TextStyle(
+                                              fontSize: 18,
+                                              fontWeight: FontWeight.bold)),
+                                      subtitle: Text(
+                                          hesabeCredentials.orderUid ?? '',
+                                          style: const TextStyle(fontSize: 16)),
+                                    ),
+                                    const Divider(
+                                      height: 0.1,
+                                    ),
+                                    ListTile(
+                                      leading: const Icon(Icons.attach_money,
+                                          color: Colors.green),
+                                      title: Text(context.lwTranslate.price,
+                                          style: const TextStyle(
+                                              fontSize: 18,
+                                              fontWeight: FontWeight.bold)),
+                                      subtitle: Text(
+                                          '${hesabeCredentials.amount ?? 0} ${hesabeCredentials.currencyCode ?? ''}',
+                                          style: const TextStyle(fontSize: 16)),
+                                    ),
+                                    const Divider(
+                                      height: 0.1,
+                                    ),
+                                    ListTile(
+                                      leading: const Icon(Icons.update,
+                                          color: Colors.orange),
+                                      title: Text(context.lwTranslate.version,
+                                          style: const TextStyle(
+                                              fontSize: 18,
+                                              fontWeight: FontWeight.bold)),
+                                      subtitle: Text(
+                                          hesabeCredentials.version ?? '',
+                                          style: const TextStyle(fontSize: 16)),
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
-                          ),
-                        ],
-                      )),
-                  context.watch<PaymentProvider>().paymentProcess
-                      ? const Center(child: CircularProgressIndicator())
-                      : Padding(
-                          padding: const EdgeInsets.all(16.0),
-                          child: Center(
-                              child: Container(
-                            width: double.infinity,
-                            child: ElevatedButton(
-                                onPressed: () {
-                                  context
-                                      .read<PaymentProvider>()
-                                      .initiatePayment(
-                                          context,
-                                          initialPaymentModel,
-                                          initialHesabeModel);
-                                },
-                                child: Text(context.lwTranslate.checkOut)),
-                          )),
-                        )
-                ],
+                          ],
+                        )),
+                    context.watch<PaymentProvider>().paymentProcess
+                        ? const Center(child: CircularProgressIndicator())
+                        : Padding(
+                            padding: const EdgeInsets.all(16.0),
+                            child: Center(
+                                child: Container(
+                              width: double.infinity,
+                              child: ElevatedButton(
+                                  onPressed: () {
+                                    context
+                                        .read<PaymentProvider>()
+                                        .initiatePayment(
+                                            context,
+                                            initialPaymentModel,
+                                            initialHesabeModel);
+                                  },
+                                  child: Text(context.lwTranslate.checkOut)),
+                            )),
+                          )
+                  ],
+                ),
               ),
             ),
           );

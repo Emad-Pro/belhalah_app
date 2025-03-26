@@ -59,8 +59,11 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
                               onSaved: (String? value) {
                                 formInputData['email'] = value;
                               },
-                              validation:
-                                  ValidationBuilder().minLength(3).build(),
+                              validation: ValidationBuilder(
+                                      localeName:
+                                          getCurrentLocale().languageCode)
+                                  .minLength(3)
+                                  .build(),
                             ),
                             LoadingButton(
                               defaultWidget: Text(
@@ -112,8 +115,11 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
                               readOnly: true,
                               initialValue: formInputData['email'],
                               labelText: "Email",
-                              validation:
-                                  ValidationBuilder().minLength(3).build(),
+                              validation: ValidationBuilder(
+                                      localeName:
+                                          getCurrentLocale().languageCode)
+                                  .minLength(3)
+                                  .build(),
                             ),
                             InputField(
                               labelText: context.lwTranslate.emailOtp,
@@ -121,8 +127,11 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
                               onSaved: (String? value) {
                                 formInputData['otp'] = value;
                               },
-                              validation:
-                                  ValidationBuilder().minLength(3).build(),
+                              validation: ValidationBuilder(
+                                      localeName:
+                                          getCurrentLocale().languageCode)
+                                  .minLength(3)
+                                  .build(),
                             ),
                             InputField(
                               labelText: context.lwTranslate.newPassword,
@@ -130,8 +139,11 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
                               onSaved: (String? value) {
                                 formInputData['password'] = value;
                               },
-                              validation:
-                                  ValidationBuilder().minLength(3).build(),
+                              validation: ValidationBuilder(
+                                      localeName:
+                                          getCurrentLocale().languageCode)
+                                  .minLength(3)
+                                  .build(),
                             ),
                             InputField(
                               labelText: context.lwTranslate.confirmNewPassword,
@@ -139,8 +151,11 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
                               onSaved: (String? value) {
                                 formInputData['password_confirmation'] = value;
                               },
-                              validation:
-                                  ValidationBuilder().minLength(3).build(),
+                              validation: ValidationBuilder(
+                                      localeName:
+                                          getCurrentLocale().languageCode)
+                                  .minLength(3)
+                                  .build(),
                             ),
                             LoadingButton(
                               defaultWidget: Text(

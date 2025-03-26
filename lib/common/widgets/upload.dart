@@ -70,7 +70,7 @@ class _UploadWidgetState extends State<UploadWidget> {
                     )
                   else
                     (widget.placeholderNetworkImage == '')
-                        ? const Text('Upload New Image')
+                        ? Text(context.lwTranslate.uploadNewPhotos)
                         : (uploadedImageName != '' && _isLoading)
                             ? Container()
                             : Padding(
@@ -277,7 +277,7 @@ class _UploadImagesWidgetState extends State<UploadImagesWidget> {
                     )
                   else
                     (widget.placeholderNetworkImage == '')
-                        ? const Text('Upload New Image')
+                        ? Text(context.lwTranslate.uploadNewPhotos)
                         : (uploadedImageName != '' && _isLoading)
                             ? Container()
                             : ClipRRect(

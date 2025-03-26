@@ -55,17 +55,16 @@ class InfoItemWidget extends StatelessWidget {
     return value == null
         ? Container()
         : Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(16, 0, 16, 0),
-                  child: Text(
-                    label ?? '',
-                    style: TextStyle(
-                      color: Theme.of(context).primaryColorLight,
-                      fontSize: 14,
-                    ),
+              Padding(
+                padding: const EdgeInsetsDirectional.fromSTEB(16, 0, 16, 0),
+                child: Text(
+                  label ?? '',
+                  style: TextStyle(
+                    color: Theme.of(context).primaryColorLight,
+                    fontSize: 14,
                   ),
                 ),
               ),
@@ -73,15 +72,12 @@ class InfoItemWidget extends StatelessWidget {
                 thickness: 0.1,
                 height: 28,
               ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(16, 0, 16, 20),
-                  child: Text(
-                    value ?? '',
-                    style: const TextStyle(
-                      fontSize: 18,
-                    ),
+              Padding(
+                padding: const EdgeInsetsDirectional.fromSTEB(16, 0, 16, 20),
+                child: Text(
+                  value ?? '',
+                  style: const TextStyle(
+                    fontSize: 18,
                   ),
                 ),
               ),

@@ -127,8 +127,10 @@ class _MyPhotosPageState extends State<MyPhotosPage> {
                                     ),
                                     onPressed: () {
                                       showActionableDialog(context,
-                                          confirmActionText: 'Yes',
-                                          cancelActionText: 'No',
+                                          confirmActionText:
+                                              context.lwTranslate.yes,
+                                          cancelActionText:
+                                              context.lwTranslate.no,
                                           description: Text(context.lwTranslate
                                               .youWantToDeleteThisImage),
                                           onConfirm: (() {

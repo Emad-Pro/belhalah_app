@@ -587,4 +587,64 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get mobile => 'الجوال';
+
+  @override
+  String get uploadNewImage => 'تحميل صورة جديدة';
+
+  @override
+  String get localUser => 'مستخدم محلي';
+
+  @override
+  String get leavedTheChannel => 'غادر القناة';
+
+  @override
+  String get joinedTheChannel => 'انضم للقناة';
+
+  @override
+  String get remoteUser => 'مستخدم عن بعد';
+
+  @override
+  String get callConnectedTo => ' الاتصال ب';
+
+  @override
+  String get join => 'انضم';
+
+  @override
+  String get accept => 'قبول';
+
+  @override
+  String get type => 'اكتب ';
+
+  @override
+  String get noRecents => 'لا يوجد حديثا';
+
+  @override
+  String get stickers => 'استيكر';
+
+  @override
+  String get currentPassword => 'كلمة المرور الحالية';
+
+  @override
+  String get pleaseAcceptTermsConditions => 'يرجى قبول الشروط والأحكام للمتابعة';
+
+  @override
+  String get photos => 'صور';
+
+  @override
+  String get from => 'من';
+
+  @override
+  String get gifts => 'هدايا';
+
+  @override
+  String get comment => 'تعليق';
+
+  @override
+  String get filters => 'التصفية';
+
+  @override
+  String get clearAllFilters => 'حذف كل التصفيات';
+
+  @override
+  String get pleaseActivateYourNewEmailAddress => 'أوشكت على الانتهاء... عليك تأكيد بريدك الإلكتروني. لإكمال عملية التفعيل، يُرجى الضغط على الرابط في الرسالة التي أرسلناها إليك.';
 }

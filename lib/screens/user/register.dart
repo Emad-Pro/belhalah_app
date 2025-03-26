@@ -78,16 +78,22 @@ class RegisterPage extends StatelessWidget {
                                 onSaved: (String? value) {
                                   formInputData['first_name'] = value;
                                 },
-                                validation:
-                                    ValidationBuilder().minLength(3).build(),
+                                validation: ValidationBuilder(
+                                        localeName:
+                                            getCurrentLocale().languageCode)
+                                    .minLength(3)
+                                    .build(),
                               ),
                               InputField(
                                 labelText: context.lwTranslate.lastName,
                                 onSaved: (String? value) {
                                   formInputData['last_name'] = value;
                                 },
-                                validation:
-                                    ValidationBuilder().minLength(3).build(),
+                                validation: ValidationBuilder(
+                                        localeName:
+                                            getCurrentLocale().languageCode)
+                                    .minLength(3)
+                                    .build(),
                               ),
                               InputField(
                                 labelText: context.lwTranslate.username,
@@ -95,18 +101,24 @@ class RegisterPage extends StatelessWidget {
                                 onSaved: (String? value) {
                                   formInputData['username'] = value;
                                 },
-                                validation:
-                                    ValidationBuilder().minLength(3).build(),
+                                validation: ValidationBuilder(
+                                        localeName:
+                                            getCurrentLocale().languageCode)
+                                    .minLength(3)
+                                    .build(),
                               ),
                               SelectField(
                                 listItems:
                                     getItemValue(snapshot.data, 'data.genders'),
-                                labelText: 'Gender',
+                                labelText: context.lwTranslate.gender,
                                 onSaved: (String? value) {
                                   formInputData['gender'] = value;
                                 },
-                                validation:
-                                    ValidationBuilder().required().build(),
+                                validation: ValidationBuilder(
+                                        localeName:
+                                            getCurrentLocale().languageCode)
+                                    .required()
+                                    .build(),
                               ),
                               DateTimeInputPicker(
                                 initialValue: formInputData['dob'],
@@ -120,8 +132,11 @@ class RegisterPage extends StatelessWidget {
                                 onChanged: (String? value) {
                                   formInputData['dob'] = value;
                                 },
-                                validation:
-                                    ValidationBuilder().required().build(),
+                                validation: ValidationBuilder(
+                                        localeName:
+                                            getCurrentLocale().languageCode)
+                                    .required()
+                                    .build(),
                               ),
                               SelectField(
                                 value: formInputData['country_code'].toString(),
@@ -140,7 +155,11 @@ class RegisterPage extends StatelessWidget {
                                 onSaved: (String? value) {
                                   formInputData['mobile_number'] = value;
                                 },
-                                validation: ValidationBuilder().phone().build(),
+                                validation: ValidationBuilder(
+                                        localeName:
+                                            getCurrentLocale().languageCode)
+                                    .phone()
+                                    .build(),
                               ),
                               InputField(
                                 labelText: context.lwTranslate.email,
@@ -148,13 +167,20 @@ class RegisterPage extends StatelessWidget {
                                 onSaved: (String? value) {
                                   formInputData['email'] = value;
                                 },
-                                validation: ValidationBuilder().email().build(),
+                                validation: ValidationBuilder(
+                                        localeName:
+                                            getCurrentLocale().languageCode)
+                                    .email()
+                                    .build(),
                               ),
                               InputField(
                                 labelText: context.lwTranslate.password,
                                 password: true,
-                                validation:
-                                    ValidationBuilder().minLength(6).build(),
+                                validation: ValidationBuilder(
+                                        localeName:
+                                            getCurrentLocale().languageCode)
+                                    .minLength(6)
+                                    .build(),
                                 prefixIcon: const Icon(Icons.key),
                                 onSaved: (String? value) {
                                   formInputData['password'] = value;
@@ -163,8 +189,11 @@ class RegisterPage extends StatelessWidget {
                               InputField(
                                 labelText: context.lwTranslate.confirmPassword,
                                 password: true,
-                                validation:
-                                    ValidationBuilder().minLength(6).build(),
+                                validation: ValidationBuilder(
+                                        localeName:
+                                            getCurrentLocale().languageCode)
+                                    .minLength(6)
+                                    .build(),
                                 prefixIcon: const Icon(Icons.key),
                                 onSaved: (String? value) {
                                   formInputData['repeat_password'] = value;
@@ -274,9 +303,11 @@ class RegisterPage extends StatelessWidget {
                                     if (!formInputData['accepted_terms']) {
                                       showActionableDialog(
                                         context,
-                                        title: 'Terms & Conditions',
-                                        description: const Text(
-                                          'Please accept terms & conditions to proceed',
+                                        title:
+                                            context.lwTranslate.termsConditions,
+                                        description: Text(
+                                          context.lwTranslate
+                                              .pleaseAcceptTermsConditions,
                                         ),
                                         cancelActionText:
                                             context.lwTranslate.ok,

@@ -224,7 +224,7 @@ class _ProfileDetailsPageState extends State<ProfileDetailsPage> {
             : <Widget>[
                 IconButton(
                   icon: const Icon(CupertinoIcons.bubble_right),
-                  tooltip: 'Comment',
+                  tooltip: context.lwTranslate.comment,
                   onPressed: () {
                     return navigatePage(
                       context,
@@ -903,10 +903,10 @@ class _ProfileDetailsPageState extends State<ProfileDetailsPage> {
                               }
                               if (photosItems.isNotEmpty) {
                                 children.add(
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.only(bottom: 28),
                                     child: Text(
-                                      'Photos',
+                                      context.lwTranslate.photos,
                                       style: TextStyle(
                                         fontSize: 28,
                                       ),
@@ -945,7 +945,7 @@ class _ProfileDetailsPageState extends State<ProfileDetailsPage> {
                                     return ProfileImageView(
                                       imageUrl: element['userGiftImgUrl'],
                                       title: Text(
-                                        'From ${element['fromUserName']}',
+                                        '${context.lwTranslate.from} ${element['fromUserName']}',
                                       ),
                                     );
                                   },
@@ -971,7 +971,7 @@ class _ProfileDetailsPageState extends State<ProfileDetailsPage> {
                                             Align(
                                               alignment: Alignment.bottomCenter,
                                               child: Text(
-                                                'from \n ${element['fromUserName']}',
+                                                '${context.lwTranslate.from} \n ${element['fromUserName']}',
                                                 textAlign: TextAlign.center,
                                               ),
                                             ),
@@ -1000,10 +1000,10 @@ class _ProfileDetailsPageState extends State<ProfileDetailsPage> {
 
                               if (giftItems.isNotEmpty) {
                                 children.add(
-                                  const Padding(
+                                  Padding(
                                     padding: EdgeInsets.only(bottom: 28),
                                     child: Text(
-                                      'Gifts',
+                                      '${context.lwTranslate.gifts}',
                                       style: TextStyle(
                                         fontSize: 28,
                                       ),

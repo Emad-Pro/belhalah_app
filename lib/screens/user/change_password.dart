@@ -48,44 +48,54 @@ class _ChangePasswordPageState extends State<ChangePasswordPage> {
                                 fontSize: 20,
                               ),
                             ),
-                            const Text(
-                                'Almost finished... You need to confirm your email address. To complete the activation process, please click the link in the email we just sent you.')
+                            Text(
+                              '${context.lwTranslate.pleaseActivateYourNewEmailAddress}',
+                            )
                           ],
                         ),
                       if (!activationRequired)
                         Column(
                           children: [
                             InputField(
-                              labelText: "Current Password",
+                              labelText: context.lwTranslate.currentPassword,
                               password: true,
                               onSaved: (String? value) {
                                 formInputData['current_password'] = value;
                               },
-                              validation:
-                                  ValidationBuilder().minLength(3).build(),
+                              validation: ValidationBuilder(
+                                      localeName:
+                                          getCurrentLocale().languageCode)
+                                  .minLength(3)
+                                  .build(),
                             ),
                             InputField(
-                              labelText: "New Password",
+                              labelText: context.lwTranslate.newPassword,
                               password: true,
-                              validation:
-                                  ValidationBuilder().minLength(6).build(),
+                              validation: ValidationBuilder(
+                                      localeName:
+                                          getCurrentLocale().languageCode)
+                                  .minLength(6)
+                                  .build(),
                               onSaved: (String? value) {
                                 formInputData['new_password'] = value;
                               },
                             ),
                             InputField(
-                              labelText: "Confirm New Password",
+                              labelText: context.lwTranslate.confirmNewPassword,
                               password: true,
-                              validation:
-                                  ValidationBuilder().minLength(6).build(),
+                              validation: ValidationBuilder(
+                                      localeName:
+                                          getCurrentLocale().languageCode)
+                                  .minLength(6)
+                                  .build(),
                               onSaved: (String? value) {
                                 formInputData['new_password_confirmation'] =
                                     value;
                               },
                             ),
                             LoadingButton(
-                              defaultWidget: const Text(
-                                'Change Password',
+                              defaultWidget: Text(
+                                context.lwTranslate.changePassword,
                               ),
                               // width: 196,
                               // height: 60,
@@ -123,8 +133,8 @@ class _ChangePasswordPageState extends State<ChangePasswordPage> {
                             onPressed: () {
                               Navigator.pop(context);
                             },
-                            child: const Text(
-                              "Go back",
+                            child: Text(
+                              context.lwTranslate.goBack,
                             ),
                           ),
                         ),

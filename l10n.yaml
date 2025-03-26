@@ -5,5 +5,5 @@ output-localization-file: app_localizations.dart
 synthetic-package: false
 output-dir: lib/l10n
 use-escaping: false
-nullable-getter: 
+nullable-getter:
 ##untranslated-messages-file: untranslatedmessage.txt

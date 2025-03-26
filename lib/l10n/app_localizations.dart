@@ -6,24 +6,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
 import 'app_localizations_ar.dart';
-import 'app_localizations_bn.dart';
-import 'app_localizations_de.dart';
 import 'app_localizations_en.dart';
-import 'app_localizations_es.dart';
-import 'app_localizations_fr.dart';
-import 'app_localizations_gu.dart';
-import 'app_localizations_hi.dart';
-import 'app_localizations_it.dart';
-import 'app_localizations_ja.dart';
-import 'app_localizations_mr.dart';
-import 'app_localizations_no.dart';
-import 'app_localizations_pt.dart';
-import 'app_localizations_ru.dart';
-import 'app_localizations_sv.dart';
-import 'app_localizations_ta.dart';
-import 'app_localizations_tr.dart';
-import 'app_localizations_vi.dart';
-import 'app_localizations_zh.dart';
 
 // ignore_for_file: type=lint
 
@@ -108,25 +91,8 @@ abstract class AppLocalizations {
 
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
-    Locale('mr'),
-    Locale('no'),
     Locale('ar'),
-    Locale('bn'),
-    Locale('de'),
-    Locale('en'),
-    Locale('es'),
-    Locale('fr'),
-    Locale('gu'),
-    Locale('hi'),
-    Locale('it'),
-    Locale('ja'),
-    Locale('pt'),
-    Locale('ru'),
-    Locale('sv'),
-    Locale('ta'),
-    Locale('tr'),
-    Locale('vi'),
-    Locale('zh')
+    Locale('en')
   ];
 
   /// No description provided for @welcome.
@@ -1256,6 +1222,126 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Mobile'**
   String get mobile;
+
+  /// No description provided for @uploadNewImage.
+  ///
+  /// In en, this message translates to:
+  /// **'Upload New Image'**
+  String get uploadNewImage;
+
+  /// No description provided for @localUser.
+  ///
+  /// In en, this message translates to:
+  /// **'Local User'**
+  String get localUser;
+
+  /// No description provided for @leavedTheChannel.
+  ///
+  /// In en, this message translates to:
+  /// **'Left The Channel'**
+  String get leavedTheChannel;
+
+  /// No description provided for @joinedTheChannel.
+  ///
+  /// In en, this message translates to:
+  /// **'Joined The Channel'**
+  String get joinedTheChannel;
+
+  /// No description provided for @remoteUser.
+  ///
+  /// In en, this message translates to:
+  /// **'Remote User'**
+  String get remoteUser;
+
+  /// No description provided for @callConnectedTo.
+  ///
+  /// In en, this message translates to:
+  /// **'Call Connected To'**
+  String get callConnectedTo;
+
+  /// No description provided for @join.
+  ///
+  /// In en, this message translates to:
+  /// **'Join'**
+  String get join;
+
+  /// No description provided for @accept.
+  ///
+  /// In en, this message translates to:
+  /// **'Accept'**
+  String get accept;
+
+  /// No description provided for @type.
+  ///
+  /// In en, this message translates to:
+  /// **'Type'**
+  String get type;
+
+  /// No description provided for @noRecents.
+  ///
+  /// In en, this message translates to:
+  /// **'No Recents'**
+  String get noRecents;
+
+  /// No description provided for @stickers.
+  ///
+  /// In en, this message translates to:
+  /// **'Stickers'**
+  String get stickers;
+
+  /// No description provided for @currentPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Current Password'**
+  String get currentPassword;
+
+  /// No description provided for @pleaseAcceptTermsConditions.
+  ///
+  /// In en, this message translates to:
+  /// **'Please accept terms & conditions to proceed'**
+  String get pleaseAcceptTermsConditions;
+
+  /// No description provided for @photos.
+  ///
+  /// In en, this message translates to:
+  /// **'Photos'**
+  String get photos;
+
+  /// No description provided for @from.
+  ///
+  /// In en, this message translates to:
+  /// **'From'**
+  String get from;
+
+  /// No description provided for @gifts.
+  ///
+  /// In en, this message translates to:
+  /// **'Gifts'**
+  String get gifts;
+
+  /// No description provided for @comment.
+  ///
+  /// In en, this message translates to:
+  /// **'Comment'**
+  String get comment;
+
+  /// No description provided for @filters.
+  ///
+  /// In en, this message translates to:
+  /// **'Filters'**
+  String get filters;
+
+  /// No description provided for @clearAllFilters.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear all Filters'**
+  String get clearAllFilters;
+
+  /// No description provided for @pleaseActivateYourNewEmailAddress.
+  ///
+  /// In en, this message translates to:
+  /// **'Almost finished... You need to confirm your email address. To complete the activation process, please click the link in the email we just sent you.'**
+  String get pleaseActivateYourNewEmailAddress;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
@@ -1267,7 +1353,7 @@ class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> 
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['mr', 'no', 'ar', 'bn', 'de', 'en', 'es', 'fr', 'gu', 'hi', 'it', 'ja', 'pt', 'ru', 'sv', 'ta', 'tr', 'vi', 'zh'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['ar', 'en'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -1278,25 +1364,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
 
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
-    case 'mr': return AppLocalizationsMr();
-    case 'no': return AppLocalizationsNo();
     case 'ar': return AppLocalizationsAr();
-    case 'bn': return AppLocalizationsBn();
-    case 'de': return AppLocalizationsDe();
     case 'en': return AppLocalizationsEn();
-    case 'es': return AppLocalizationsEs();
-    case 'fr': return AppLocalizationsFr();
-    case 'gu': return AppLocalizationsGu();
-    case 'hi': return AppLocalizationsHi();
-    case 'it': return AppLocalizationsIt();
-    case 'ja': return AppLocalizationsJa();
-    case 'pt': return AppLocalizationsPt();
-    case 'ru': return AppLocalizationsRu();
-    case 'sv': return AppLocalizationsSv();
-    case 'ta': return AppLocalizationsTa();
-    case 'tr': return AppLocalizationsTr();
-    case 'vi': return AppLocalizationsVi();
-    case 'zh': return AppLocalizationsZh();
   }
 
   throw FlutterError(

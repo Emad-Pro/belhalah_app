@@ -66,7 +66,9 @@ class _ChangeEmailPageState extends State<ChangeEmailPage> {
                               onSaved: (String? value) {
                                 formInputData['current_email'] = value;
                               },
-                              validation: ValidationBuilder()
+                              validation: ValidationBuilder(
+                                      localeName:
+                                          getCurrentLocale().languageCode)
                                   .minLength(3)
                                   .email()
                                   .build(),
@@ -76,7 +78,9 @@ class _ChangeEmailPageState extends State<ChangeEmailPage> {
                               onSaved: (String? value) {
                                 formInputData['new_email'] = value;
                               },
-                              validation: ValidationBuilder()
+                              validation: ValidationBuilder(
+                                      localeName:
+                                          getCurrentLocale().languageCode)
                                   .minLength(3)
                                   .email()
                                   .build(),
@@ -84,8 +88,11 @@ class _ChangeEmailPageState extends State<ChangeEmailPage> {
                             InputField(
                               labelText: context.lwTranslate.password,
                               password: true,
-                              validation:
-                                  ValidationBuilder().minLength(6).build(),
+                              validation: ValidationBuilder(
+                                      localeName:
+                                          getCurrentLocale().languageCode)
+                                  .minLength(6)
+                                  .build(),
                               onSaved: (String? value) {
                                 formInputData['current_password'] = value;
                               },
@@ -136,8 +143,8 @@ class _ChangeEmailPageState extends State<ChangeEmailPage> {
                             onPressed: () {
                               Navigator.pop(context);
                             },
-                            child: const Text(
-                              "Go back",
+                            child: Text(
+                              context.lwTranslate.goBack,
                             ),
                           ),
                         ),

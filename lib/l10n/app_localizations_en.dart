@@ -587,4 +587,64 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get mobile => 'Mobile';
+
+  @override
+  String get uploadNewImage => 'Upload New Image';
+
+  @override
+  String get localUser => 'Local User';
+
+  @override
+  String get leavedTheChannel => 'Left The Channel';
+
+  @override
+  String get joinedTheChannel => 'Joined The Channel';
+
+  @override
+  String get remoteUser => 'Remote User';
+
+  @override
+  String get callConnectedTo => 'Call Connected To';
+
+  @override
+  String get join => 'Join';
+
+  @override
+  String get accept => 'Accept';
+
+  @override
+  String get type => 'Type';
+
+  @override
+  String get noRecents => 'No Recents';
+
+  @override
+  String get stickers => 'Stickers';
+
+  @override
+  String get currentPassword => 'Current Password';
+
+  @override
+  String get pleaseAcceptTermsConditions => 'Please accept terms & conditions to proceed';
+
+  @override
+  String get photos => 'Photos';
+
+  @override
+  String get from => 'From';
+
+  @override
+  String get gifts => 'Gifts';
+
+  @override
+  String get comment => 'Comment';
+
+  @override
+  String get filters => 'Filters';
+
+  @override
+  String get clearAllFilters => 'Clear all Filters';
+
+  @override
+  String get pleaseActivateYourNewEmailAddress => 'Almost finished... You need to confirm your email address. To complete the activation process, please click the link in the email we just sent you.';
 }

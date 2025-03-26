@@ -46,6 +46,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "aboutMe": MessageLookupByLibrary.simpleMessage("عني"),
         "aboutUs": MessageLookupByLibrary.simpleMessage("عنا"),
         "abuseReport": MessageLookupByLibrary.simpleMessage("تقرير عن الإساءة"),
+        "accept": MessageLookupByLibrary.simpleMessage("قبول"),
         "accountCreatedSuccessfully":
             MessageLookupByLibrary.simpleMessage("تم إنشاء الحساب بنجاح"),
         "activateYourNewEmailAddress": MessageLookupByLibrary.simpleMessage(
@@ -76,6 +77,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "buyMoreCredits":
             MessageLookupByLibrary.simpleMessage("شراء المزيد من النقاط"),
         "byBoostingYourProfileYouWillBeAPartOf": m0,
+        "callConnectedTo": MessageLookupByLibrary.simpleMessage(" الاتصال ب"),
         "cancel": MessageLookupByLibrary.simpleMessage("إلغاء"),
         "changeEmail":
             MessageLookupByLibrary.simpleMessage("تغيير البريد الإلكتروني"),
@@ -92,6 +94,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "creditsCredits": m1,
         "currentEmail":
             MessageLookupByLibrary.simpleMessage("البريد الإلكتروني الحالي"),
+        "currentPassword":
+            MessageLookupByLibrary.simpleMessage("كلمة المرور الحالية"),
         "customerInformation":
             MessageLookupByLibrary.simpleMessage("معلومات العميل"),
         "customerName": MessageLookupByLibrary.simpleMessage("اسم العميل"),
@@ -143,13 +147,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "iAcceptAllThe":
             MessageLookupByLibrary.simpleMessage("أوافق على جميع "),
         "itemPriceCredits": m4,
+        "join": MessageLookupByLibrary.simpleMessage("انضم"),
+        "joinedTheChannel": MessageLookupByLibrary.simpleMessage("انضم للقناة"),
         "kWD": MessageLookupByLibrary.simpleMessage("K.W.D"),
         "language": MessageLookupByLibrary.simpleMessage("اللغة"),
         "lastName": MessageLookupByLibrary.simpleMessage("الاسم الأخير"),
+        "leavedTheChannel": MessageLookupByLibrary.simpleMessage("غادر القناة"),
         "letsGo": MessageLookupByLibrary.simpleMessage("لنذهب"),
         "loading": MessageLookupByLibrary.simpleMessage("جارٍ التحميل ..."),
         "loadingMessages":
             MessageLookupByLibrary.simpleMessage("جاري تحميل الرسائل ..."),
+        "localUser": MessageLookupByLibrary.simpleMessage("مستخدم محلي"),
         "location": MessageLookupByLibrary.simpleMessage("الموقع"),
         "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "lookingFor": MessageLookupByLibrary.simpleMessage("أبحث عن"),
@@ -192,6 +200,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "newPassword":
             MessageLookupByLibrary.simpleMessage("كلمة المرور الجديدة"),
         "no": MessageLookupByLibrary.simpleMessage("لا"),
+        "noRecents": MessageLookupByLibrary.simpleMessage("لا يوجد حديثا"),
         "noResultFound":
             MessageLookupByLibrary.simpleMessage("لم يتم العثور على نتيجة"),
         "notConnected": MessageLookupByLibrary.simpleMessage("غير متصل"),
@@ -210,6 +219,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "paymentDetails": MessageLookupByLibrary.simpleMessage("تفاصيل الدفع"),
         "paymentMethod": MessageLookupByLibrary.simpleMessage("طريقة الدفع"),
         "personal": MessageLookupByLibrary.simpleMessage("شخصي"),
+        "pleaseActivateYourNewEmailAddress": MessageLookupByLibrary.simpleMessage(
+            "أوشكت على الانتهاء... عليك تأكيد بريدك الإلكتروني. لإكمال عملية التفعيل، يُرجى الضغط على الرابط في الرسالة التي أرسلناها إليك."),
         "pleaseSelectAPlan":
             MessageLookupByLibrary.simpleMessage("يرجى اختيار خطة"),
         "preferredLanguage":
@@ -229,6 +240,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "register": MessageLookupByLibrary.simpleMessage("التسجيل"),
         "relationshipStatus":
             MessageLookupByLibrary.simpleMessage("حالة العلاقة"),
+        "remoteUser": MessageLookupByLibrary.simpleMessage("مستخدم عن بعد"),
         "report": MessageLookupByLibrary.simpleMessage("الإبلاغ"),
         "reportAbuse":
             MessageLookupByLibrary.simpleMessage("الإبلاغ عن إساءة استخدام"),
@@ -262,6 +274,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "تسجيل الدخول باستخدام فيسبوك"),
         "signInWithGoogle": MessageLookupByLibrary.simpleMessage(
             "تسجيل الدخول باستخدام Google"),
+        "stickers": MessageLookupByLibrary.simpleMessage("استيكر"),
         "submit": MessageLookupByLibrary.simpleMessage("إرسال"),
         "termsConditions":
             MessageLookupByLibrary.simpleMessage("الشروط والأحكام"),
@@ -277,10 +290,13 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("معلومات المعاملة"),
         "tryingToConnect":
             MessageLookupByLibrary.simpleMessage("جارٍ الاتصال..."),
+        "type": MessageLookupByLibrary.simpleMessage("نوع"),
         "unblock": MessageLookupByLibrary.simpleMessage("إلغاء الحظر"),
         "updatePhoto": MessageLookupByLibrary.simpleMessage("تحديث الصورة"),
         "updateSettings":
             MessageLookupByLibrary.simpleMessage("تحديث الإعدادات"),
+        "uploadNewImage":
+            MessageLookupByLibrary.simpleMessage("تحميل صورة جديدة"),
         "uploadNewPhotos":
             MessageLookupByLibrary.simpleMessage("صورة الملف الشخصي"),
         "userBlocked": MessageLookupByLibrary.simpleMessage("تم حظر المستخدم"),

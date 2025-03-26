@@ -24,7 +24,7 @@ class MessengerChatListPage extends StatefulWidget {
 }
 
 class _MessengerChatListPageState extends State<MessengerChatListPage> {
-  late int targetUserId = 0;
+  int targetUserId = 0;
   bool enableAudioVideoLinks = false;
   bool allowAudioCall = false;
   bool allowVideoCall = false;
@@ -32,9 +32,11 @@ class _MessengerChatListPageState extends State<MessengerChatListPage> {
   void initState() {
     super.initState();
     setState(() {
-      targetUserId = widget.sourceElement['user_id'] ??
-          widget.sourceElement['_id'] ??
-          widget.sourceElement['id'];
+      targetUserId = widget.sourceElement['user_id'] != null
+          ? int.tryParse(widget.sourceElement['user_id'].toString())
+          : widget.sourceElement['_id'] != null
+              ? int.tryParse(widget.sourceElement['_id'])
+              : widget.sourceElement['id'];
     });
   }
 
@@ -115,8 +117,8 @@ class _MessengerChatListPageState extends State<MessengerChatListPage> {
                           if (responseData?['reaction'] != 1) {
                             showActionableDialog(
                               context,
-                              title: 'Alert',
-                              confirmActionText: 'Ok',
+                              title: context.lwTranslate.alert,
+                              confirmActionText: context.lwTranslate.ok,
                               description: Text(
                                   getItemValue(responseData, 'data.message')),
                             );
@@ -243,8 +245,10 @@ class _ChatListWidgetState extends State<ChatListWidget> {
   @override
   void initState() {
     super.initState();
-    targetUserId =
-        widget.sourceElement["user_id"] ?? widget.sourceElement["_id"];
+    targetUserId = widget.sourceElement["user_id"] != null
+        ? int.tryParse(widget.sourceElement["user_id"])
+        : int.tryParse(widget.sourceElement["_id"]) ??
+            widget.sourceElement["_id"];
     messageDraftFocusNode = FocusNode();
     data_transport
         .get('messenger/$targetUserId/get-user-messages', context: context)
@@ -417,8 +421,8 @@ class _ChatListWidgetState extends State<ChatListWidget> {
                                         });
                                       }));
                                     }),
-                                    child: const Text(
-                                      'Accept',
+                                    child: Text(
+                                      context.lwTranslate.accept,
                                       style: TextStyle(
                                         color: Colors.white,
                                       ),
@@ -485,9 +489,10 @@ class _ChatListWidgetState extends State<ChatListWidget> {
                                           controller: _messageDraftController,
                                           minLines: 1,
                                           maxLines: 5,
-                                          decoration: const InputDecoration(
+                                          decoration: InputDecoration(
                                             isDense: true,
-                                            hintText: "Type ...",
+                                            hintText:
+                                                "${context.lwTranslate.type} ...",
                                             hintStyle: TextStyle(
                                               color: Colors.blueAccent,
                                             ),
@@ -620,8 +625,8 @@ class _ChatListWidgetState extends State<ChatListWidget> {
                 gridPadding: EdgeInsets.zero,
                 recentsLimit: 28,
                 replaceEmojiOnLimitExceed: false,
-                noRecents: const Text(
-                  'No Recent',
+                noRecents: Text(
+                  context.lwTranslate.noRecents,
                   style: TextStyle(fontSize: 20, color: Colors.black26),
                   textAlign: TextAlign.center,
                 ),
@@ -920,8 +925,8 @@ class StickerSelectionWidget extends StatelessWidget {
                 appBar: AppBar(
                   automaticallyImplyLeading: false,
                   centerTitle: false,
-                  title: const Text(
-                    'Stickers',
+                  title: Text(
+                    context.lwTranslate.stickers,
                   ),
                 ),
                 body: Padding(

@@ -483,7 +483,7 @@ class _UsersListPageState extends State<UsersListPage>
         }
         filterPersonalChildren.add(Padding(
           padding: const EdgeInsets.only(top: 20),
-          child: Text('Language',
+          child: Text(context.lwTranslate.language,
               style: TextStyle(
                   fontSize: 15, color: Theme.of(context).primaryColor)),
         ));
@@ -531,7 +531,7 @@ class _UsersListPageState extends State<UsersListPage>
         // relationship_status Status
         filterPersonalChildren.add(Padding(
           padding: const EdgeInsets.only(top: 20),
-          child: Text('Relationship Status',
+          child: Text(context.lwTranslate.relationshipStatus,
               style: TextStyle(
                   fontSize: 15, color: Theme.of(context).primaryColor)),
         ));
@@ -583,7 +583,7 @@ class _UsersListPageState extends State<UsersListPage>
         filterPersonalChildren.add(Padding(
           padding: const EdgeInsets.only(top: 20),
           child: Text(
-            'Work Status',
+            context.lwTranslate.workStatus,
             style: TextStyle(
               fontSize: 15,
               color: Theme.of(context).primaryColor,
@@ -637,7 +637,7 @@ class _UsersListPageState extends State<UsersListPage>
         // relationship_status Status
         filterPersonalChildren.add(Padding(
           padding: const EdgeInsets.only(top: 20),
-          child: Text('Education',
+          child: Text(context.lwTranslate.education,
               style: TextStyle(
                   fontSize: 15, color: Theme.of(context).primaryColor)),
         ));
@@ -826,14 +826,14 @@ class _UsersListPageState extends State<UsersListPage>
                 automaticallyImplyLeading: true,
                 actions: [
                   TextButton(
-                      child: const Row(
+                      child: Row(
                         children: [
                           Icon(
                             CupertinoIcons.clear,
                             size: 14,
                           ),
                           Text(
-                            'Clear all Filters',
+                            context.lwTranslate.clearAllFilters,
                             style: TextStyle(fontSize: 14),
                           ),
                         ],
@@ -884,7 +884,7 @@ class _UsersListPageState extends State<UsersListPage>
                   tabs: filterTabs,
                   indicatorColor: Theme.of(context).primaryColor,
                 ), // TabBar
-                title: const Text('Filters'),
+                title: Text(context.lwTranslate.filters),
               ), // AppBar
               body: TabBarView(
                 controller: tabController,

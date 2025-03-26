@@ -502,7 +502,7 @@ showActionableDialog(
       actions: [
         if (cancelActionText != null)
           TextButton(
-            child: Text(cancelActionText,
+            child: Text(context.lwTranslate.no,
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     color: Theme.of(context).secondaryHeaderColor)),
@@ -518,7 +518,7 @@ showActionableDialog(
               if (onConfirm != null) onConfirm();
             },
             child: Text(
-              confirmActionText,
+              context.lwTranslate.yes,
               style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Theme.of(context).primaryColor),
@@ -609,14 +609,14 @@ AppBar mainAppBarWidget(
           <Widget>[
             IconButton(
               icon: const Icon(Icons.bolt),
-              tooltip: 'Boost Profile',
+              tooltip: context.lwTranslate.boostMyProfile,
               onPressed: () {
                 navigatePage(context, const BoosterPage());
               },
             ),
             IconButton(
               icon: const Icon(Icons.wallet),
-              tooltip: 'Credit Wallet',
+              tooltip: context.lwTranslate.myCreditWallet,
               onPressed: () {
                 navigatePage(context, const WalletTransactionListPage());
               },
@@ -634,7 +634,7 @@ AppBar mainAppBarWidget(
                   child: const Icon(CupertinoIcons.bell),
                 ),
               ),
-              tooltip: 'Show Snackbar',
+              tooltip: context.lwTranslate.showMessagesNotifications,
               onPressed: () {
                 navigatePage(context, const NotificationListPage());
               },

@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 // Logo image
-final logoImage = SvgPicture.asset(
-  "assets/images/logo.svg",
+final logoImage = Image.asset(
+  "assets/images/logo.png",
 );
 final premiumBadge = SvgPicture.asset(
   "assets/images/premium-badge.svg",

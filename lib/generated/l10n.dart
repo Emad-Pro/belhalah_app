@@ -1792,141 +1792,271 @@ class S {
     );
   }
 
-  /// `KWD`
+  /// `Kuwaiti Dinar`
   String get kWD {
     return Intl.message(
-      'KWD',
+      'Kuwaiti Dinar',
       name: 'kWD',
       desc: '',
       args: [],
     );
   }
 
-  /// `Detalles del pago`
+  /// `Payment Details`
   String get paymentDetails {
     return Intl.message(
-      'Detalles del pago',
+      'Payment Details',
       name: 'paymentDetails',
       desc: '',
       args: [],
     );
   }
 
-  /// `ID de pedido`
+  /// `Order ID`
   String get orderID {
     return Intl.message(
-      'ID de pedido',
+      'Order ID',
       name: 'orderID',
       desc: '',
       args: [],
     );
   }
 
-  /// `Precio`
+  /// `Price`
   String get price {
     return Intl.message(
-      'Precio',
+      'Price',
       name: 'price',
       desc: '',
       args: [],
     );
   }
 
-  /// `Finalizar compra`
+  /// `Check Out`
   String get checkOut {
     return Intl.message(
-      'Finalizar compra',
+      'Check Out',
       name: 'checkOut',
       desc: '',
       args: [],
     );
   }
 
-  /// `Pago cancelado por el usuario.`
+  /// `Payment Cancelled by user.`
   String get paymentCancelledByUser {
     return Intl.message(
-      'Pago cancelado por el usuario.',
+      'Payment Cancelled by user.',
       name: 'paymentCancelledByUser',
       desc: '',
       args: [],
     );
   }
 
-  /// `Información de transacción`
+  /// `Transaction Information`
   String get transactionInformation {
     return Intl.message(
-      'Información de transacción',
+      'Transaction Information',
       name: 'transactionInformation',
       desc: '',
       args: [],
     );
   }
 
-  /// `Información del cliente`
+  /// `Customer Information`
   String get customerInformation {
     return Intl.message(
-      'Información del cliente',
+      'Customer Information',
       name: 'customerInformation',
       desc: '',
       args: [],
     );
   }
 
-  /// `Referencia de pedido`
+  /// `Order Reference`
   String get orderReference {
     return Intl.message(
-      'Referencia de pedido',
+      'Order Reference',
       name: 'orderReference',
       desc: '',
       args: [],
     );
   }
 
-  /// `Código de resultado`
+  /// `Result Code`
   String get resultCode {
     return Intl.message(
-      'Código de resultado',
+      'Result Code',
       name: 'resultCode',
       desc: '',
       args: [],
     );
   }
 
-  /// `Cantidad`
+  /// `Amount`
   String get amount {
     return Intl.message(
-      'Cantidad',
+      'Amount',
       name: 'amount',
       desc: '',
       args: [],
     );
   }
 
-  /// `Pagado en`
+  /// `Paid On`
   String get paidOn {
     return Intl.message(
-      'Pagado en',
+      'Paid On',
       name: 'paidOn',
       desc: '',
       args: [],
     );
   }
 
-  /// `Nombre del cliente`
+  /// `Customer Name`
   String get customerName {
     return Intl.message(
-      'Nombre del cliente',
+      'Customer Name',
       name: 'customerName',
       desc: '',
       args: [],
     );
   }
 
-  /// `Móvil`
+  /// `Mobile`
   String get mobile {
     return Intl.message(
-      'Móvil',
+      'Mobile',
       name: 'mobile',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Upload New Image`
+  String get uploadNewImage {
+    return Intl.message(
+      'Upload New Image',
+      name: 'uploadNewImage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Local User`
+  String get localUser {
+    return Intl.message(
+      'Local User',
+      name: 'localUser',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Left The Channel`
+  String get leavedTheChannel {
+    return Intl.message(
+      'Left The Channel',
+      name: 'leavedTheChannel',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Joined The Channel`
+  String get joinedTheChannel {
+    return Intl.message(
+      'Joined The Channel',
+      name: 'joinedTheChannel',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Remote User`
+  String get remoteUser {
+    return Intl.message(
+      'Remote User',
+      name: 'remoteUser',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Call Connected To`
+  String get callConnectedTo {
+    return Intl.message(
+      'Call Connected To',
+      name: 'callConnectedTo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Join`
+  String get join {
+    return Intl.message(
+      'Join',
+      name: 'join',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Accept`
+  String get accept {
+    return Intl.message(
+      'Accept',
+      name: 'accept',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Type`
+  String get type {
+    return Intl.message(
+      'Type',
+      name: 'type',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No Recents`
+  String get noRecents {
+    return Intl.message(
+      'No Recents',
+      name: 'noRecents',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Stickers`
+  String get stickers {
+    return Intl.message(
+      'Stickers',
+      name: 'stickers',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Current Password`
+  String get currentPassword {
+    return Intl.message(
+      'Current Password',
+      name: 'currentPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Almost finished... You need to confirm your email address. To complete the activation process, please click the link in the email we just sent you.`
+  String get pleaseActivateYourNewEmailAddress {
+    return Intl.message(
+      'Almost finished... You need to confirm your email address. To complete the activation process, please click the link in the email we just sent you.',
+      name: 'pleaseActivateYourNewEmailAddress',
       desc: '',
       args: [],
     );
@@ -1939,23 +2069,7 @@ class AppLocalizationDelegate extends LocalizationsDelegate<S> {
   List<Locale> get supportedLocales {
     return const <Locale>[
       Locale.fromSubtags(languageCode: 'en'),
-      Locale.fromSubtags(languageCode: 'No'),
       Locale.fromSubtags(languageCode: 'ar'),
-      Locale.fromSubtags(languageCode: 'bn'),
-      Locale.fromSubtags(languageCode: 'de'),
-      Locale.fromSubtags(languageCode: 'es'),
-      Locale.fromSubtags(languageCode: 'fr'),
-      Locale.fromSubtags(languageCode: 'gu'),
-      Locale.fromSubtags(languageCode: 'hi'),
-      Locale.fromSubtags(languageCode: 'it'),
-      Locale.fromSubtags(languageCode: 'ja'),
-      Locale.fromSubtags(languageCode: 'pt'),
-      Locale.fromSubtags(languageCode: 'ru'),
-      Locale.fromSubtags(languageCode: 'sv'),
-      Locale.fromSubtags(languageCode: 'ta'),
-      Locale.fromSubtags(languageCode: 'tr'),
-      Locale.fromSubtags(languageCode: 'vi'),
-      Locale.fromSubtags(languageCode: 'zh'),
     ];
   }
 

@@ -93,14 +93,20 @@ class _LoginPageState extends State<LoginPage> {
                               onSaved: (String? value) {
                                 formInputData['email_or_username'] = value;
                               },
-                              validation:
-                                  ValidationBuilder().minLength(3).build(),
+                              validation: ValidationBuilder(
+                                      localeName:
+                                          getCurrentLocale().languageCode)
+                                  .minLength(3)
+                                  .build(),
                             ),
                             InputField(
                               placeholder: context.lwTranslate.password,
                               password: true,
-                              validation:
-                                  ValidationBuilder().minLength(6).build(),
+                              validation: ValidationBuilder(
+                                      localeName:
+                                          getCurrentLocale().languageCode)
+                                  .minLength(6)
+                                  .build(),
                               prefixIcon: const Icon(Icons.key),
                               onSaved: (String? value) {
                                 formInputData['password'] = value;

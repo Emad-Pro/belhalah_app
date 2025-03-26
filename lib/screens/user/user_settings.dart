@@ -86,6 +86,7 @@ class _UserSettingsPageState extends State<UserSettingsPage> {
                         Consumer<LocaleModel>(
                           builder: (context, localeModel, child) =>
                               DropdownButton(
+                            icon: Icon(Icons.language),
                             isExpanded: true,
                             value: selectedLocale,
                             items: localesDropdownItems,
@@ -262,7 +263,7 @@ class _UserSettingsPageState extends State<UserSettingsPage> {
                         onPressed: () {
                           showActionableDialog(
                             context,
-                            title: 'Delete Account',
+                            title: context.lwTranslate.deleteAccount,
                             description: Column(
                               children: [
                                 Text(
@@ -276,8 +277,11 @@ class _UserSettingsPageState extends State<UserSettingsPage> {
                                   onChanged: (String? value) {
                                     accountDeleteInputData['password'] = value;
                                   },
-                                  validation:
-                                      ValidationBuilder().minLength(3).build(),
+                                  validation: ValidationBuilder(
+                                          localeName:
+                                              getCurrentLocale().languageCode)
+                                      .minLength(3)
+                                      .build(),
                                 ),
                               ],
                             ),

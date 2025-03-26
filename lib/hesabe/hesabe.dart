@@ -4,6 +4,8 @@ import 'dart:developer';
 import 'package:dio/dio.dart';
 import 'package:eventify/eventify.dart';
 import 'package:flutter/material.dart';
+import 'package:loveria/common/services/auth.dart';
+import 'package:loveria/common/services/utils.dart';
 
 import 'src/api/api_interface.dart';
 import 'src/api/dio_helper.dart';
@@ -92,7 +94,8 @@ class Hesabe {
 
     if (data == EVENT_PAYMENT_CANCELLED_BY_USER) {
       eventName = EVENT_PAYMENT_ERROR;
-      _eventEmitter.emit(eventName, null, 'Payment Cancelled by user.');
+      _eventEmitter.emit(
+          eventName, null, context.lwTranslate.paymentCancelledByUser);
     } else if (data != null) {
       final decryptedData = HesabeCrypt()
           .decrypt(data, secretKey, ivKey)

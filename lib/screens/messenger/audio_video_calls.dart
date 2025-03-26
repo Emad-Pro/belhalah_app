@@ -130,13 +130,13 @@ class Initialize extends State<AudioVideoCall> {
         onLeaveChannel: (RtcConnection connection, RtcStats rtcStats) {
           // audioPlayer.stop();
           showMessage(
-              "Local user uid:${connection.localUid} leaved the channel");
+              "${context.lwTranslate.localUser} :${connection.localUid} ${context.lwTranslate.leavedTheChannel}");
           leave();
         },
         onJoinChannelSuccess: (RtcConnection connection, int elapsed) {
           // audioPlayer.stop();
           showMessage(
-              "Local user uid:${connection.localUid} joined the channel");
+              "${context.lwTranslate.localUser}:${connection.localUid} ${context.lwTranslate.joinedTheChannel}");
           setState(() {
             _isJoined = true;
             _remoteUid = null;
@@ -144,21 +144,23 @@ class Initialize extends State<AudioVideoCall> {
         },
         onUserJoined: (RtcConnection connection, int remoteUid, int elapsed) {
           audioPlayer.stop();
-          showMessage("Remote user uid:$remoteUid joined the channel");
+          showMessage(
+              "${context.lwTranslate.remoteUser} :$remoteUid ${context.lwTranslate.joinedTheChannel}");
           setState(() {
             _remoteUid = remoteUid;
             if (widget.isIncomingCall) {
               titleMessage =
-                  "Call connected to ${widget.connectionInfo?['callerName']}";
+                  "${context.lwTranslate.callConnectedTo} ${widget.connectionInfo?['callerName']}";
             } else {
               titleMessage =
-                  "Call connected to ${widget.connectionInfo?['userFullName']}";
+                  "${context.lwTranslate.callConnectedTo} ${widget.connectionInfo?['userFullName']}";
             }
           });
         },
         onUserOffline: (RtcConnection connection, int remoteUid,
             UserOfflineReasonType reason) {
-          showMessage("Remote user uid:$remoteUid left the channel");
+          showMessage(
+              "${context.lwTranslate.remoteUser}:$remoteUid ${context.lwTranslate.leavedTheChannel}");
           leave();
           setState(() {
             _isJoined = false;
@@ -384,8 +386,8 @@ class Initialize extends State<AudioVideoCall> {
         ),
       );
     } else {
-      return const Text(
-        'Join', // Join a channel
+      return Text(
+        context.lwTranslate.join, // Join a channel
         textAlign: TextAlign.center,
       );
     }

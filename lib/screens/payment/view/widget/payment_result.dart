@@ -19,8 +19,8 @@ class PaymentResult extends StatelessWidget {
     return Scaffold(body: Builder(builder: (context) {
       switch (paymentState) {
         case PaymentState.loading:
-          return const PaymentLoading(
-            message: "Loading ...",
+          return PaymentLoading(
+            message: "${context.lwTranslate.loading} ...",
           );
         case PaymentState.cancel:
           return Center(

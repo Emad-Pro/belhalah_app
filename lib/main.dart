@@ -9,18 +9,22 @@ import './screens/home.dart';
 import './screens/landing.dart';
 import '../support/app_theme.dart' as app_theme;
 import 'package:provider/provider.dart';
-
+import 'dart:io';
 import 'support/app_locales.dart';
 
 // list of available locales
 List<Locale> supportedLocales = <Locale>[
   const Locale('en'),
+  const Locale('ar'),
 ];
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   MobileAds.instance.initialize();
   await initPreferences();
+  /* اصلاح مشكلة شهادات عرض البيانات من الانترتن */
+  HttpOverrides.global = new MyHttpOverrides();
+  /* اصلاح مشكلة شهادات عرض البيانات من الانترتن */
   // list of available locales from config
   // List configLocales = configItem('locales', fallbackValue: []);
   if (appLocales.isNotEmpty) {
@@ -40,9 +44,11 @@ class MyApp extends StatelessWidget {
       create: (context) => LocaleModel(),
       child: Consumer<LocaleModel>(
         builder: (context, localeModel, child) => MaterialApp(
-          title: 'Loveria',
+          title: 'Belhalal',
           theme: ThemeData(
-            fontFamily: 'Fuzzy_Bubbles',
+            fontFamily: getCurrentLocale().languageCode == 'ar'
+                ? "tajawal"
+                : "Fuzzy_Bubbles",
             // This is the theme of your application.
             //
             // Try running your application with "flutter run". You'll see the
@@ -88,3 +94,14 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+/* اصلاح مشكلة شهادات عرض البيانات من الانترتن */
+class MyHttpOverrides extends HttpOverrides {
+  @override
+  HttpClient createHttpClient(context) {
+    return super.createHttpClient(context)
+      ..badCertificateCallback =
+          (X509Certificate cert, String host, int port) => true;
+  }
+}
+/* اصلاح مشكلة شهادات عرض البيانات من الانترتن */

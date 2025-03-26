@@ -261,7 +261,8 @@ class _WalletTransactionListPageState extends State<WalletTransactionListPage>
                                                             'method']
                                                         .toString()),
                                             InfoItemWidget(
-                                                label: 'Amount',
+                                                label:
+                                                    context.lwTranslate.amount,
                                                 value:
                                                     financialTransactionDetail[
                                                             'amount']
