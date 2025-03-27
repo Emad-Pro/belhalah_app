@@ -52,12 +52,12 @@ class _LoginPageState extends State<LoginPage> {
           child: SafeArea(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 const Padding(
                   padding: EdgeInsets.only(top: 40),
                   child: AppLogo(
-                    height: 75,
+                    height: 170,
                   ),
                 ),
                 if (isInProcess)

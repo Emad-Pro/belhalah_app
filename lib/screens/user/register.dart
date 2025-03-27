@@ -54,7 +54,7 @@ class RegisterPage extends StatelessWidget {
                         const Padding(
                           padding: EdgeInsets.only(top: 40),
                           child: AppLogo(
-                            height: 75,
+                            height: 170,
                           ),
                         ),
                         Form(

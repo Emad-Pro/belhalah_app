@@ -3,6 +3,7 @@ import 'package:flutter_svg/svg.dart';
 
 // Logo image
 final logoImage = Image.asset(
+  fit: BoxFit.cover,
   "assets/images/logo.png",
 );
 final premiumBadge = SvgPicture.asset(
